@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Researches on My New Hugo Site</title>
+    <link>http://localhost:1313/research/</link>
+    <description>Recent content in Researches on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Oct 2024 22:41:18 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publication List</title>
+      <link>http://localhost:1313/research/publication-list/</link>
+      <pubDate>Mon, 07 Oct 2024 22:41:18 +0800</pubDate>
+      <guid>http://localhost:1313/research/publication-list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Completed Projects</title>
+      <link>http://localhost:1313/research/completed-projects/</link>
+      <pubDate>Mon, 07 Oct 2024 22:41:02 +0800</pubDate>
+      <guid>http://localhost:1313/research/completed-projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ongoing Projects</title>
+      <link>http://localhost:1313/research/ongoing-projects/</link>
+      <pubDate>Mon, 07 Oct 2024 22:40:37 +0800</pubDate>
+      <guid>http://localhost:1313/research/ongoing-projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research Themes</title>
+      <link>http://localhost:1313/research/research-themes/</link>
+      <pubDate>Mon, 07 Oct 2024 22:40:24 +0800</pubDate>
+      <guid>http://localhost:1313/research/research-themes/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
