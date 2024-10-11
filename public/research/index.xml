@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Researches on My New Hugo Site</title>
+    <title>Researches on Prof Kean Lab Site</title>
     <link>http://localhost:1313/research/</link>
-    <description>Recent content in Researches on My New Hugo Site</description>
+    <description>Recent content in Researches on Prof Kean Lab Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Oct 2024 22:41:18 +0800</lastBuildDate>
