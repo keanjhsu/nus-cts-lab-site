@@ -1,0 +1,64 @@
+{{ define "main" }}
+<div class="home-container">
+  <div class="hero">
+    <h1 class="hero__title">{{ .Title }}</h1>
+  </div>
+  <div class="content-sections">
+    <!-- Row 1 -->
+    <div class="content-row">
+      <div class="content-text">
+        <p>
+          Anxiety and depression profoundly affect individuals by influencing
+          their thoughts, emotions, and behaviours. They often coexist, creating
+          a compounded burden that disrupts personal relationships, work, and
+          overall well-being. While these conditions are common, each person’s
+          experience is unique, shaped by a combination of biological,
+          psychological, and environmental factors.
+        </p>
+      </div>
+      <div class="content-image">
+        <img src="{{ "images/row1.png" | relURL }}" alt="Image for row 1">
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="content-row">
+      <div class="content-image">
+        <img src="{{ "images/row2.png" | relURL }}" alt="Image for row 2">
+      </div>
+      <div class="content-text">
+        <p>
+          At the Clinical Translational Science Lab, we strive to untangle this
+          complexity by investigating the core processes that drive anxiety and
+          depression. This includes exploring how individuals respond to stress,
+          how negative thought patterns develop, and how these conditions alter
+          cognitive and emotional regulation. Our research emphasises a nuanced
+          understanding of these disorders to pave the way for more targeted and
+          effective interventions.
+        </p>
+      </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="content-row">
+      <div class="content-text">
+        <p>
+          Ultimately, our lab seeks to bridge research and practice, translating
+          findings into actionable strategies for treatment and prevention.
+          Through a deeper understanding of anxiety and depression, we hope to
+          improve mental health outcomes and enhance resilience in those
+          affected.
+        </p>
+      </div>
+      <div class="content-image">
+        <img src="{{ "images/row3.png" | relURL }}" alt="Image for row 3">
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ $css := resources.Get "scss/main.scss" }} {{ $css = $css | toCSS }}
+
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+
+{{ end }}
