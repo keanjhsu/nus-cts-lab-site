@@ -6,35 +6,7 @@
     <description>Recent content in Researches on Prof Kean Lab Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Oct 2024 22:41:18 +0800</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Publication List</title>
-      <link>http://localhost:1313/research/publication-list/</link>
-      <pubDate>Mon, 07 Oct 2024 22:41:18 +0800</pubDate>
-      <guid>http://localhost:1313/research/publication-list/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Completed Projects</title>
-      <link>http://localhost:1313/research/completed-projects/</link>
-      <pubDate>Mon, 07 Oct 2024 22:41:02 +0800</pubDate>
-      <guid>http://localhost:1313/research/completed-projects/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ongoing Projects</title>
-      <link>http://localhost:1313/research/ongoing-projects/</link>
-      <pubDate>Mon, 07 Oct 2024 22:40:37 +0800</pubDate>
-      <guid>http://localhost:1313/research/ongoing-projects/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Research Themes</title>
-      <link>http://localhost:1313/research/research-themes/</link>
-      <pubDate>Mon, 07 Oct 2024 22:40:24 +0800</pubDate>
-      <guid>http://localhost:1313/research/research-themes/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

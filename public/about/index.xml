@@ -6,49 +6,7 @@
     <description>Recent content in Abouts on Prof Kean Lab Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Oct 2024 22:39:58 +0800</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Alumni</title>
-      <link>http://localhost:1313/about/alumni/</link>
-      <pubDate>Mon, 07 Oct 2024 22:39:58 +0800</pubDate>
-      <guid>http://localhost:1313/about/alumni/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Collaborators</title>
-      <link>http://localhost:1313/about/collaborators/</link>
-      <pubDate>Mon, 07 Oct 2024 22:39:34 +0800</pubDate>
-      <guid>http://localhost:1313/about/collaborators/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Current Undergraduate Ras</title>
-      <link>http://localhost:1313/about/current-undergraduate-ras/</link>
-      <pubDate>Mon, 07 Oct 2024 22:39:05 +0800</pubDate>
-      <guid>http://localhost:1313/about/current-undergraduate-ras/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Current Graduate Students</title>
-      <link>http://localhost:1313/about/current-graduate-students/</link>
-      <pubDate>Mon, 07 Oct 2024 22:38:51 +0800</pubDate>
-      <guid>http://localhost:1313/about/current-graduate-students/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lab Director</title>
-      <link>http://localhost:1313/about/lab-director/</link>
-      <pubDate>Mon, 07 Oct 2024 22:38:31 +0800</pubDate>
-      <guid>http://localhost:1313/about/lab-director/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lab Culture</title>
-      <link>http://localhost:1313/about/lab-culture/</link>
-      <pubDate>Mon, 07 Oct 2024 22:36:33 +0800</pubDate>
-      <guid>http://localhost:1313/about/lab-culture/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

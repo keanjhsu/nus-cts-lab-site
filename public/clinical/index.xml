@@ -6,42 +6,7 @@
     <description>Recent content in Clinicals on Prof Kean Lab Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Oct 2024 22:42:50 +0800</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/clinical/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Assessment</title>
-      <link>http://localhost:1313/clinical/assessment/</link>
-      <pubDate>Mon, 07 Oct 2024 22:42:50 +0800</pubDate>
-      <guid>http://localhost:1313/clinical/assessment/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Interventions</title>
-      <link>http://localhost:1313/clinical/interventions/</link>
-      <pubDate>Mon, 07 Oct 2024 22:42:37 +0800</pubDate>
-      <guid>http://localhost:1313/clinical/interventions/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Supervision</title>
-      <link>http://localhost:1313/clinical/supervision/</link>
-      <pubDate>Mon, 07 Oct 2024 22:42:22 +0800</pubDate>
-      <guid>http://localhost:1313/clinical/supervision/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Clinical Workshops</title>
-      <link>http://localhost:1313/clinical/clinical-workshops/</link>
-      <pubDate>Mon, 07 Oct 2024 22:42:09 +0800</pubDate>
-      <guid>http://localhost:1313/clinical/clinical-workshops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Basic Ssi</title>
-      <link>http://localhost:1313/clinical/basic-ssi/</link>
-      <pubDate>Mon, 07 Oct 2024 22:41:45 +0800</pubDate>
-      <guid>http://localhost:1313/clinical/basic-ssi/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

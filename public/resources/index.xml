@@ -6,21 +6,7 @@
     <description>Recent content in Resources on Prof Kean Lab Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Oct 2024 22:44:00 +0800</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Scientific Writing Tips</title>
-      <link>http://localhost:1313/resources/scientific-writing-tips/</link>
-      <pubDate>Mon, 07 Oct 2024 22:44:00 +0800</pubDate>
-      <guid>http://localhost:1313/resources/scientific-writing-tips/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tasks for Sharing</title>
-      <link>http://localhost:1313/resources/tasks-for-sharing/</link>
-      <pubDate>Mon, 07 Oct 2024 22:43:42 +0800</pubDate>
-      <guid>http://localhost:1313/resources/tasks-for-sharing/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
