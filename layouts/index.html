@@ -56,9 +56,4 @@
     </div>
   </div>
 </div>
-
-{{ $css := resources.Get "scss/main.scss" }} {{ $css = $css | toCSS }}
-
-<link rel="stylesheet" href="{{ $css.RelPermalink }}" />
-
 {{ end }}
