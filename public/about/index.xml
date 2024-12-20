@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Prof Kean Lab Site</title>
+    <title>Prof Kean Lab Site</title>
     <link>http://localhost:1313/about/</link>
-    <description>Recent content in Abouts on Prof Kean Lab Site</description>
+    <description>Recent content on Prof Kean Lab Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coder</title>
+      <link>http://localhost:1313/about/collaborator/grace-yong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/collaborator/grace-yong/</guid>
+      <description>&lt;p&gt;Information about Grace Yong&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kean</title>
+      <link>http://localhost:1313/about/alumni/kean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/kean/</guid>
+      <description>&lt;p&gt;Bio and other details about Kean.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab Director</title>
+      <link>http://localhost:1313/about/lab-director/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/lab-director/</guid>
+      <description>&lt;p&gt;Kean J. Hsu is an Assistant Professor in the Department of Psychiatry at Georgetown University. He studies how dysfunction in basic cognitive processes, like attention and executive functioning, contribute to the development and maintenance of depression and related psychopathology (e.g., co-morbid anxiety).&lt;/p&gt;&#xA;&lt;p&gt;He is also interested in clarifying predictors and mediators of psychotherapeutic response for depression and anxiety in real-world settings, developing and refining scalable interventions (e.g., cognitive training, single-session psychotherapeutic interventions), improving measurement reliability and validity, and increasing awareness of issues surrounding mental health and stigma in typically underserved communities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RA</title>
+      <link>http://localhost:1313/about/member/justina-tan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/justina-tan/</guid>
+      <description>&lt;p&gt;Information about Justina Tan&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -1,6 +1,7 @@
 current:
-  - name: "Name 1"
-    position: "Position"
+  - name: "Justina Tan"
+    position: "Master Student"
+    slug: "justina-tan"
   - name: "Name 2"
     position: "Position"
   - name: "Name 3"
@@ -17,8 +18,9 @@ current:
     position: "Position"
 
 collaborators:
-  - name: "Name 1"
-    position: "Position"
+  - name: "Grace Yong"
+    position: "Coder"
+    slug: "grace-yong"
   - name: "Name 2"
     position: "Position"
   - name: "Name 3"
@@ -27,8 +29,9 @@ collaborators:
     position: "Position"
 
 alumni:
-  - name: "Name 1"
-    position: "Position"
+  - name: "Kean"
+    position: "RA"
+    slug: "kean"
   - name: "Name 2"
     position: "Position"
   - name: "Name 3"

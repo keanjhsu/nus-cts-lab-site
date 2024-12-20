@@ -121,11 +121,27 @@ h2 {
   color: #2f4e6b;
   margin-bottom: 1rem; }
 
+.profile-link {
+  display: block;
+  /* Ensures the entire container is clickable */
+  text-decoration: none;
+  /* Removes underline from the link */
+  color: inherit;
+  /* Inherits text color */ }
+
 .director-profile {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem; }
+  gap: 0.5rem;
+  cursor: pointer;
+  /* Changes the cursor to a pointer on hover */ }
+
+.director-profile:hover {
+  background-color: #f5f5f5;
+  /* Optional: Add a hover effect */
+  transition: background-color 0.3s ease;
+  /* Smooth transition effect */ }
 
 .profile-picture {
   width: 210px;
@@ -161,4 +177,107 @@ h3 {
 p {
   font-family: DM Sans;
   font-size: 1.5rem;
+  margin: 0.5rem; }
+
+.layout-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.row {
+  flex-wrap: wrap;
+  margin-bottom: 20px; }
+
+.first-row {
+  display: flex; }
+
+.first-column {
+  width: 25%;
+  padding: 10px; }
+
+.second-column {
+  width: 75%;
+  padding: 10px; }
+
+.director-profile {
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: default; }
+
+.profile-picture {
+  width: 100%;
+  max-width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block; }
+
+.contact-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px; }
+
+.contact-icons img {
+  width: 30px;
+  height: 30px; }
+
+.cv-button-row {
+  text-align: center;
+  margin-top: 20px; }
+
+.cv-button-row button {
+  background-color: #2f4e6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px; }
+
+.second-row,
+.third-row {
+  border: 2px solid #d9cba9;
+  /* Adds a border around the section */
+  border-radius: 10px;
+  /* Makes the border rounded */
+  padding: 20px;
+  /* Adds spacing inside the border */
+  margin-bottom: 20px;
+  /* Adds spacing below the section */ }
+
+.section-title {
+  font-family: Exo;
+  font-size: 48px;
+  color: #752718;
+  margin: 0.5rem; }
+
+.interests-list,
+.education-list,
+.contact-list {
+  list-style-type: disc;
+  /* Adds bullet points */
+  padding-left: 20px;
+  /* Ensures bullets align with the title */
+  margin: 0; }
+
+.interests-list li,
+.education-list li,
+.contact-list li {
+  margin-bottom: 10px;
+  /* Adds space between bullet points */ }
+
+h1 {
+  font-family: Exo;
+  font-size: 64px;
+  color: #2f4e6b;
+  margin: 0.5rem; }
+
+h3 {
+  font-family: DM Sans;
+  font-size: 1.875rem;
+  color: #859ea0;
+  margin: 0.5rem; }
+
+p {
+  font-family: DM Sans;
+  font-size: 24px;
   margin: 0.5rem; }
