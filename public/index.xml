@@ -9,11 +9,25 @@
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Grace Yong</title>
+      <link>http://localhost:1313/about/collaborator/grace-yong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/collaborator/grace-yong/</guid>
+      <description>&lt;p&gt;Bio and other details about Grace Yong.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Justina Tan</title>
       <link>http://localhost:1313/about/member/justina-tan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/member/justina-tan/</guid>
       <description>&lt;p&gt;Bio and other details about Justina Tan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kean</title>
+      <link>http://localhost:1313/about/alumni/kean/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/kean/</guid>
+      <description>&lt;p&gt;Bio and other details about Kean.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lab Director</title>

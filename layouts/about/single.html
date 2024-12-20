@@ -24,7 +24,7 @@
     <a href="{{ site.BaseURL }}/about/lab-director" class="profile-link">
       <div class="director-profile">
         <img
-          src="/images/prof-kean.png"
+          src="/images/people/prof-kean.png"
           alt="Lab Director"
           class="profile-picture"
         />
@@ -47,7 +47,11 @@
         class="profile-link"
       >
         <div class="member-profile">
-          <div class="member-picture"></div>
+          <img
+            src="/images/people/member/{{ .slug }}.png"
+            alt="{{ .name }}"
+            class="profile-picture"
+          />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
@@ -66,7 +70,11 @@
         class="profile-link"
       >
         <div class="member-profile">
-          <div class="member-picture"></div>
+          <img
+            src="/images/people/collaborator/{{ .slug }}.png"
+            alt="{{ .name }}"
+            class="profile-picture"
+          />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
@@ -85,7 +93,11 @@
         class="profile-link"
       >
         <div class="member-profile">
-          <div class="member-picture"></div>
+          <img
+            src="/images/people/alumni/{{ .slug }}.png"
+            alt="{{ .name }}"
+            class="profile-picture"
+          />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
