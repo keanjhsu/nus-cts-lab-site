@@ -3,8 +3,8 @@ languageCode = 'en-us'
 title = 'Prof Kean Lab Site'
 theme = 'ananke'
 
-[params]
-  aboutLayout = "about/single"
+[permalinks]
+  member = "/about/member/:slug/"
 
 [menu]
   [[menu.main]]

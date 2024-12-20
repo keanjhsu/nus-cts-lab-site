@@ -1,6 +1,7 @@
 current:
-  - name: "Name 1"
+  - name: "Justina Tan"
     position: "Position"
+    slug: "justina-tan"
   - name: "Name 2"
     position: "Position"
   - name: "Name 3"

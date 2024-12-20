@@ -25,6 +25,10 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/about/member/member-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/lab-director/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

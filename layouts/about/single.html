@@ -42,11 +42,16 @@
     <h2>Current Members</h2>
     <div class="members-grid">
       {{ range .Site.Data.members.current }}
-      <div class="member-profile">
-        <div class="member-picture"></div>
-        <h3>{{ .name }}</h3>
-        <p>{{ .position }}</p>
-      </div>
+      <a
+        href="{{ .site.BaseURL }}/about/member/{{ .slug }}"
+        class="profile-link"
+      >
+        <div class="member-profile">
+          <div class="member-picture"></div>
+          <h3>{{ .name }}</h3>
+          <p>{{ .position }}</p>
+        </div>
+      </a>
       {{ end }}
     </div>
   </section>
