@@ -16,13 +16,6 @@
       <description>&lt;p&gt;Bio and other details about Grace Yong.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Justina Tan</title>
-      <link>http://localhost:1313/about/member/justina-tan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/member/justina-tan/</guid>
-      <description>&lt;p&gt;Bio and other details about Justina Tan.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Kean</title>
       <link>http://localhost:1313/about/alumni/kean/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -35,6 +28,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/lab-director/</guid>
       <description>&lt;p&gt;Kean J. Hsu is an Assistant Professor in the Department of Psychiatry at Georgetown University. He studies how dysfunction in basic cognitive processes, like attention and executive functioning, contribute to the development and maintenance of depression and related psychopathology (e.g., co-morbid anxiety).&lt;/p&gt;&#xA;&lt;p&gt;He is also interested in clarifying predictors and mediators of psychotherapeutic response for depression and anxiety in real-world settings, developing and refining scalable interventions (e.g., cognitive training, single-session psychotherapeutic interventions), improving measurement reliability and validity, and increasing awareness of issues surrounding mental health and stigma in typically underserved communities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RA</title>
+      <link>http://localhost:1313/about/member/justina-tan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/justina-tan/</guid>
+      <description>&lt;p&gt;Information about Justina Tan&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
