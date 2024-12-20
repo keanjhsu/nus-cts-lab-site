@@ -5,7 +5,6 @@
 }
 
 .row {
-  display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
@@ -64,42 +63,40 @@
   border-radius: 5px;
 }
 
+.second-row,
+.third-row {
+  border: 2px solid #d9cba9; /* Adds a border around the section */
+  border-radius: 10px; /* Makes the border rounded */
+  padding: 20px; /* Adds spacing inside the border */
+  margin-bottom: 20px; /* Adds spacing below the section */
+}
+
 .section-title {
-  width: fit-content;
-  margin: 0 auto 20px;
-  position: relative;
-  padding: 0 20px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.section-title::before,
-.section-title::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 40px;
-  height: 2px;
-  background-color: #2f4e6b;
-}
-
-.section-title::before {
-  left: -50px;
-}
-
-.section-title::after {
-  right: -50px;
+  font-family: Exo;
+  font-size: 48px;
+  color: #752718;
+  margin: 0.5rem;
 }
 
 .interests-list,
-.projects-list {
-  list-style-type: disc;
-  padding-left: 40px;
+.education-list,
+.contact-list {
+  list-style-type: disc; /* Adds bullet points */
+  padding-left: 20px; /* Ensures bullets align with the title */
+  margin: 0;
 }
 
 .interests-list li,
-.projects-list li {
-  margin-bottom: 10px;
+.education-list li,
+.contact-list li {
+  margin-bottom: 10px; /* Adds space between bullet points */
+}
+
+h1 {
+  font-family: Exo;
+  font-size: 64px;
+  color: #2f4e6b;
+  margin: 0.5rem;
 }
 
 h3 {
@@ -111,6 +108,6 @@ h3 {
 
 p {
   font-family: DM Sans;
-  font-size: 1.5rem;
+  font-size: 24px;
   margin: 0.5rem;
 }

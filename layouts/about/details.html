@@ -33,52 +33,46 @@
     <div class="column first-column">
       <div class="director-profile">
         <img
-          src="/images/people/prof-kean.png"
-          alt="Lab Director"
+          src="{{ .Params.picture }}"
+          alt="{{ .Title }}"
           class="profile-picture"
         />
         <div class="profile-details">
-          <h3>Kean J. Hsu, Ph.D.</h3>
-          <p>Assistant Professor</p>
-          <p>Georgetown University</p>
+          <h3>{{ .Params.name }}</h3>
+          <p>{{ .Params.position }}</p>
+          <p>{{ .Params.institution }}</p>
         </div>
       </div>
       <!-- Icons Row -->
       <div class="contact-icons">
-        <a href="mailto:kean.hsu@georgetown.edu" style="align-content: center"
+        <a href="mailto:{{ .Params.email }}" style="align-content: center"
           ><i class="fa fa-envelope" style="color: #328cc1; font-size: 2rem"></i
         ></a>
-        <a href="https://twitter.com/keanjhsu"
+        <a href="{{ .Params.twitter }}"
           ><i class="fa fa-twitter" style="color: #328cc1; font-size: 2rem"></i
         ></a>
-        <a href="https://scholar.google.com/citations?user=7-fUnzUAAAAJ"
+        <a href="{{ .Params.googlescholar }}"
           ><i
             class="ai ai-google-scholar"
             style="color: #328cc1; font-size: 2rem"
           ></i
         ></a>
-        <a href="https://orcid.org/0000-0001-6192-4045"
+        <a href="{{ .Params.orcid }}"
           ><i class="ai ai-orcid" style="color: #328cc1; font-size: 2rem"></i
         ></a>
-        <a href="https://osf.io/v9g87"
+        <a href="{{ .Params.osf }}"
           ><i class="ai ai-osf" style="color: #328cc1; font-size: 2rem"></i
         ></a>
       </div>
       <!-- CV Button Row -->
       <div class="cv-button-row">
-        <button onclick="window.open('/path/to/cv.pdf')">View CV</button>
+        <button onclick="window.open('{{ .Params.cv }}')">View CV</button>
       </div>
     </div>
     <!-- Profile Description Column -->
     <div class="column second-column">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-        scelerisque tortor ac quam sagittis, a efficitur nisi dignissim.
-      </p>
-      <p>
-        Proin sit amet ligula at nunc suscipit malesuada. Vivamus dictum magna
-        id turpis tincidunt pellentesque.
-      </p>
+      <h1>Hello!</h1>
+      <p>{{ .Content }}</p>
     </div>
   </div>
 
@@ -86,35 +80,32 @@
   <div class="row second-row">
     <h2 class="section-title">Interests</h2>
     <ul class="interests-list">
-      <li>Machine Learning</li>
-      <li>Data Science</li>
-      <li>Computational Biology</li>
-      <li>Scientific Research</li>
-      <li>Software Development</li>
+      {{ range .Params.interests }}
+      <li><p>{{ . }}</p></li>
+      {{ end }}
     </ul>
   </div>
 
   <!-- Education Row -->
   <div class="row third-row">
-    <h2 class="section-title">Projects</h2>
-    <ul class="projects-list">
-      <li>Project A: Description of the project.</li>
-      <li>Project B: Description of the project.</li>
-      <li>Project C: Description of the project.</li>
-      <li>Project D: Description of the project.</li>
-      <li>Project E: Description of the project.</li>
+    <h2 class="section-title">Education</h2>
+    <ul class="education-list">
+      {{ range .Params.education }}
+      <li>
+        <p><b>{{ .degree }}, {{ .year }}</b></p>
+      </li>
+      <li style="list-style: none"><p>{{ .institution }}</p></li>
+      {{ end }}
     </ul>
   </div>
 
   <!-- Contacts Row -->
   <div class="row third-row">
-    <h2 class="section-title">Projects</h2>
-    <ul class="projects-list">
-      <li>Project A: Description of the project.</li>
-      <li>Project B: Description of the project.</li>
-      <li>Project C: Description of the project.</li>
-      <li>Project D: Description of the project.</li>
-      <li>Project E: Description of the project.</li>
+    <h2 class="section-title">Contact Me</h2>
+    <ul class="contact-list">
+      {{ range .Params.contact }}
+      <li><p>{{ . }}</p></li>
+      {{ end }}
     </ul>
   </div>
 </div>
