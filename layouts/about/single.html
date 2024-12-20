@@ -61,11 +61,16 @@
     <h2>Collaborators</h2>
     <div class="members-grid">
       {{ range .Site.Data.members.collaborators }}
-      <div class="member-profile">
-        <div class="member-picture"></div>
-        <h3>{{ .name }}</h3>
-        <p>{{ .position }}</p>
-      </div>
+      <a
+        href="{{ .site.BaseURL }}/about/collaborator/{{ .slug }}"
+        class="profile-link"
+      >
+        <div class="member-profile">
+          <div class="member-picture"></div>
+          <h3>{{ .name }}</h3>
+          <p>{{ .position }}</p>
+        </div>
+      </a>
       {{ end }}
     </div>
   </section>
@@ -74,12 +79,17 @@
   <section class="alumni">
     <h2>Alumni</h2>
     <div class="members-grid">
-      {{ range .Site.Data.members.collaborators }}
-      <div class="member-profile">
-        <div class="member-picture"></div>
-        <h3>{{ .name }}</h3>
-        <p>{{ .position }}</p>
-      </div>
+      {{ range .Site.Data.members.alumni }}
+      <a
+        href="{{ .site.BaseURL }}/about/alumni/{{ .slug }}"
+        class="profile-link"
+      >
+        <div class="member-profile">
+          <div class="member-picture"></div>
+          <h3>{{ .name }}</h3>
+          <p>{{ .position }}</p>
+        </div>
+      </a>
       {{ end }}
     </div>
   </section>
