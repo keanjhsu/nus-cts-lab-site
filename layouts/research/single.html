@@ -1,0 +1,72 @@
+{{ define "main" }}
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Exo";
+    }
+  </style>
+  <link
+    href="https://fonts.googleapis.com/css?family=DM Sans"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "DM Sans";
+    }
+  </style>
+</head>
+
+<!-- Research Themes Section -->
+<section class="section research-themes">
+  <h1 class="section-title">Research Themes</h1>
+  {{ range $index, $element := .Params.research }}
+  <div class="research-row {{ if mod $index 2 }}reverse{{ end }}">
+    <div class="research-image">
+      <img src="{{ $element.image }}" alt="{{ $element.description }}" />
+    </div>
+    <div class="research-text">
+      <span>{{ $element.description }}</span>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<!-- Ongoing Projects Section -->
+<section class="section ongoing-projects">
+  <h1 class="section-title">Ongoing Projects</h1>
+  {{ range .Params.project }}
+  <div class="project-row">
+    <div class="project-title">{{ .title }}</div>
+    <div class="project-content">
+      <div class="project-description">
+        <span>{{ .description }}</span>
+      </div>
+      <div class="read-more">
+        <a href="{{ .link }}"><button onclick="">Read More</button></a>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<!-- Publications Section -->
+<section class="section publications">
+  <h1 class="section-title">Publications</h1>
+  {{ range .Params.publication }}
+  <div class="publication-row">
+    <div class="publication-year">{{ .year }}</div>
+
+    <div class="publication-studies">
+      {{ range .studies }}
+      <div class="study-row">
+        <div class="study-name">{{ .title }}</div>
+        <div class="study-description">{{ .description }}</div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+{{ end }}
