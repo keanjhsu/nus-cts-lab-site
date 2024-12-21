@@ -93,3 +93,25 @@
   font-family: DM Sans;
   font-size: 24px;
 }
+.research-theme-description {
+  align-items: center;
+}
+.relevant-work {
+  border: 2px solid #d9cba9; /* Adds a border around the section */
+  border-radius: 10px; /* Makes the border rounded */
+  padding: 20px; /* Adds spacing inside the border */
+  margin-bottom: 20px; /* Adds spacing below the section */
+}
+.relevant-work-title {
+  font-family: Exo;
+  font-size: 48px;
+  color: #752718;
+}
+.relevant-work-list {
+  list-style-type: disc; /* Adds bullet points */
+  padding-left: 20px; /* Ensures bullets align with the title */
+  margin: 0;
+}
+.relevant-work-list li {
+  margin-bottom: 10px; /* Adds space between bullet points */
+}
