@@ -10,13 +10,6 @@
   margin-bottom: 3rem;
 }
 
-h2 {
-  font-family: Exo;
-  font-size: 3rem;
-  color: #2f4e6b;
-  margin-bottom: 1rem;
-}
-
 .profile-link {
   display: block; /* Ensures the entire container is clickable */
   text-decoration: none; /* Removes underline from the link */
@@ -28,7 +21,6 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  cursor: pointer; /* Changes the cursor to a pointer on hover */
 }
 
 .director-profile:hover {

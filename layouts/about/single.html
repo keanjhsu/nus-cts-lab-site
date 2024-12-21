@@ -20,7 +20,7 @@
 <div class="lab-team-container">
   <!-- Lab Director Section -->
   <section class="lab-director">
-    <h2>Lab Director</h2>
+    <span class="section-title">Lab Director</span>
     <a href="{{ site.BaseURL }}/about/lab-director" class="profile-link">
       <div class="director-profile">
         <img
@@ -39,7 +39,7 @@
 
   <!-- Current Members Section -->
   <section class="current-members">
-    <h2>Current Members</h2>
+    <span class="section-title">Current Members</span>
     <div class="members-grid">
       {{ range .Site.Data.members.current }}
       <a
@@ -62,7 +62,7 @@
 
   <!-- Collaborators Section -->
   <section class="collaborators">
-    <h2>Collaborators</h2>
+    <span class="section-title">Collaborators</span>
     <div class="members-grid">
       {{ range .Site.Data.members.collaborators }}
       <a
@@ -85,7 +85,7 @@
 
   <!-- Alumni Section -->
   <section class="alumni">
-    <h2>Alumni</h2>
+    <span class="section-title">Alumni</span>
     <div class="members-grid">
       {{ range .Site.Data.members.alumni }}
       <a
@@ -108,7 +108,7 @@
 
   <!-- Lab Culture Section -->
   <section class="lab-culture">
-    <h2>Lab Culture</h2>
+    <span class="section-title">Lab Culture</span>
   </section>
 </div>
 {{ end }}

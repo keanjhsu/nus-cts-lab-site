@@ -1,0 +1,35 @@
+{{ define "main" }}
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Exo";
+    }
+  </style>
+  <link
+    href="https://fonts.googleapis.com/css?family=DM Sans"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "DM Sans";
+    }
+  </style>
+</head>
+
+<!-- Research Theme Section -->
+<section class="section research-themes">
+  <h1 class="section-title">{{ .Params.title }}</h1>
+  <div class="research-theme-description"><p>{{ .Content }}</p></div>
+</section>
+
+<!-- Relevant Work Section -->
+<section class="section relevant-work">
+  <span class="relevant-work-title">Relevant Work</span>
+  <ul class="relevant-work-list">
+    {{ range .Params.relevantWork }}
+    <li><p>{{ . }}</p></li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}
