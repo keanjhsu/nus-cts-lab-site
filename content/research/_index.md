@@ -9,12 +9,16 @@ research:
     link: cognitive-processes
   - description: The role of various cognitive biases for emotional information in the maintenance of depression (including experimentally manipulating these cognitive biases)
     image: /images/research/cognitive-biases-role.png
+    link: cognitive-biases-role
   - description: How cognitive biases naturalistically interact with social media usage to predict maintenance of depression and anxiety symptoms
     image: /images/research/cognitive-biases-social-media.png
+    link: cognitive-biases-social-media
   - description: How executive functioning (for emotional and non-emotional information) are associated with cognitive biases and emotion regulation
     image: /images/research/executive-functioning.png
+    link: executive-functioning
   - description: Treatment development and research
     image: /images/research/treatment-development.png
+    link: treatment-development
 
 project:
   - title: COmputerized Modification Program for Attention - REtraining the Mind Trial (COMPARE Mind Trial)

@@ -300,11 +300,10 @@ p {
   /* Inherits text color */ }
 
 .research-image {
-  border-radius: 50%;
-  overflow: hidden;
   margin: 0 20px;
   height: 210px;
-  width: 210px; }
+  width: 210px;
+  align-content: center; }
 
 .research-image img {
   width: 100%;
