@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Clinicals on Prof Kean Lab Site</title>
+    <title>Prof Kean Lab Site</title>
     <link>http://localhost:1313/clinical/</link>
-    <description>Recent content in Clinicals on Prof Kean Lab Site</description>
+    <description>Recent content on Prof Kean Lab Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>

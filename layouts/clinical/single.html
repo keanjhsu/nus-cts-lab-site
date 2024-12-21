@@ -1,0 +1,47 @@
+{{ define "main" }}
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Exo";
+    }
+  </style>
+  <link
+    href="https://fonts.googleapis.com/css?family=DM Sans"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "DM Sans";
+    }
+  </style>
+</head>
+
+<section class="section">
+  <h1 class="section-title">Clinical Expertise</h1>
+
+  <!-- Overview -->
+  <div class="clinical-row">
+    <span class="clinical-title">Overview</span>
+    <p>{{ .Params.overview | markdownify }}</p>
+  </div>
+
+  <!-- Supervision Experience -->
+  <div class="clinical-row">
+    <span class="clinical-title">Supervision Experience</span>
+    <p>{{ .Params.supervisionExperience | markdownify }}</p>
+  </div>
+
+  <!-- Intervention Experience -->
+  <div class="clinical-row">
+    <span class="clinical-title">Intervention Experience</span>
+    <p>{{ .Params.interventionExperience | markdownify }}</p>
+  </div>
+
+  <!-- Assessment Experience -->
+  <div class="clinical-row">
+    <span class="clinical-title">Assessment Experience</span>
+    <p>{{ .Params.assessmentExperience | markdownify }}</p>
+  </div>
+</section>
+{{ end }}
