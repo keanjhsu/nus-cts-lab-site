@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/clinical/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/research/theme/cognitive-processes/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research/theme/cognitive-biases-social-media/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research/theme/executive-functioning/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research/theme/cognitive-biases-role/</loc>
+    <lastmod>2024-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research/theme/treatment-development/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/research/</loc>
@@ -22,9 +37,6 @@
   </url><url>
     <loc>http://localhost:1313/service/</loc>
     <lastmod>2024-10-07T22:43:22+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/clinical/</loc>
-    <lastmod>2024-10-07T22:42:50+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
