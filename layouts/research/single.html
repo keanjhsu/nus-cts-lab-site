@@ -53,29 +53,20 @@
 <!-- Publications Section -->
 <section class="section publications">
   <h1 class="section-title">Publications</h1>
+  {{ range .Params.publication }}
   <div class="publication-row">
-    <div class="publication-year">2023</div>
+    <div class="publication-year">{{ .year }}</div>
+
     <div class="publication-studies">
+      {{ range .studies }}
       <div class="study-row">
-        <div class="study-name">Study Name 1</div>
-        <div class="study-description">Description for study 1 goes here.</div>
+        <div class="study-name">{{ .title }}</div>
+        <div class="study-description">{{ .description }}</div>
       </div>
-      <div class="study-row">
-        <div class="study-name">Study Name 2</div>
-        <div class="study-description">Description for study 2 goes here.</div>
-      </div>
+      {{ end }}
     </div>
   </div>
-  <div class="publication-row">
-    <div class="publication-year">2022</div>
-    <div class="publication-studies">
-      <div class="study-row">
-        <div class="study-name">Study Name 3</div>
-        <div class="study-description">Description for study 3 goes here.</div>
-      </div>
-    </div>
-  </div>
-  <!-- Add more rows as needed -->
+  {{ end }}
 </section>
 
 {{ end }}

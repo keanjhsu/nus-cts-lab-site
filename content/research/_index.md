@@ -22,4 +22,22 @@ project:
   - title: SECOND project
     description: TO BE FILLED
     link: https://keanjhsu.com/project/r33/
+
+publication:
+  - year: 2023
+    studies:
+      - title: Study 1
+        description: Description of Study 1
+  - year: 2022
+    studies:
+      - title: Study 2
+        description: Description of Study 2
+      - title: Study 3
+        description: Description of Study 3
+  - year: 2021
+    studies:
+      - title: Study 4
+        description: Description of Study 4
+      - title: Study 5
+        description: Description of Study 5
 ---
