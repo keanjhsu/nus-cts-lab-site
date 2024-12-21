@@ -35,35 +35,19 @@
 <!-- Ongoing Projects Section -->
 <section class="section ongoing-projects">
   <h1 class="section-title">Ongoing Projects</h1>
+  {{ range .Params.project }}
   <div class="project-row">
-    <div class="project-title">Project Title 1</div>
+    <div class="project-title">{{ .title }}</div>
     <div class="project-content">
       <div class="project-description">
-        <p>
-          Description for project 1 goes here. This is a brief overview of the
-          project.
-        </p>
+        <span>{{ .description }}</span>
       </div>
       <div class="read-more">
-        <button>Read More</button>
+        <a href="{{ .link }}"><button onclick="">Read More</button></a>
       </div>
     </div>
   </div>
-  <div class="project-row">
-    <div class="project-title">Project Title 2</div>
-    <div class="project-content">
-      <div class="project-description">
-        <p>
-          Description for project 2 goes here. This is a brief overview of the
-          project.
-        </p>
-      </div>
-      <div class="read-more">
-        <button>Read More</button>
-      </div>
-    </div>
-  </div>
-  <!-- Add more rows as needed -->
+  {{ end }}
 </section>
 
 <!-- Publications Section -->
