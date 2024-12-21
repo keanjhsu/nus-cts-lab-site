@@ -291,6 +291,14 @@ p {
   align-items: center;
   margin: 20px 20px; }
 
+.research-link {
+  display: block;
+  /* Ensures the entire container is clickable */
+  text-decoration: none;
+  /* Removes underline from the link */
+  color: inherit;
+  /* Inherits text color */ }
+
 .research-image {
   border-radius: 50%;
   overflow: hidden;

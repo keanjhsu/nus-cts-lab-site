@@ -6,6 +6,7 @@ layout: "single"
 research:
   - description: How basic cognitive processes (e.g., attention, executive function) for emotional and non-emotional information are related to anhedonia and reward dysfunction in psychopathology
     image: /images/research/cognitive-processes.png
+    link: cognitive-processes
   - description: The role of various cognitive biases for emotional information in the maintenance of depression (including experimentally manipulating these cognitive biases)
     image: /images/research/cognitive-biases-role.png
   - description: How cognitive biases naturalistically interact with social media usage to predict maintenance of depression and anxiety symptoms
