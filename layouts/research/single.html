@@ -1,1 +1,97 @@
-{{ define "main" }} <h1>research</h1></hi>{{ end }}
+{{ define "main" }}
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Exo";
+    }
+  </style>
+  <link
+    href="https://fonts.googleapis.com/css?family=DM Sans"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "DM Sans";
+    }
+  </style>
+</head>
+
+<!-- Research Themes Section -->
+<section class="section research-themes">
+  <h1 class="section-title">Research Themes</h1>
+  {{ range $index, $element := .Params.research }}
+  <div class="research-row {{ if mod $index 2 }}reverse{{ end }}">
+    <div class="research-image">
+      <img src="{{ $element.image }}" alt="{{ $element.description }}" />
+    </div>
+    <div class="research-text">
+      <span>{{ $element.description }}</span>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<!-- Ongoing Projects Section -->
+<section class="section ongoing-projects">
+  <h1 class="section-title">Ongoing Projects</h1>
+  <div class="project-row">
+    <div class="project-title">Project Title 1</div>
+    <div class="project-content">
+      <div class="project-description">
+        <p>
+          Description for project 1 goes here. This is a brief overview of the
+          project.
+        </p>
+      </div>
+      <div class="read-more">
+        <button>Read More</button>
+      </div>
+    </div>
+  </div>
+  <div class="project-row">
+    <div class="project-title">Project Title 2</div>
+    <div class="project-content">
+      <div class="project-description">
+        <p>
+          Description for project 2 goes here. This is a brief overview of the
+          project.
+        </p>
+      </div>
+      <div class="read-more">
+        <button>Read More</button>
+      </div>
+    </div>
+  </div>
+  <!-- Add more rows as needed -->
+</section>
+
+<!-- Publications Section -->
+<section class="section publications">
+  <h1 class="section-title">Publications</h1>
+  <div class="publication-row">
+    <div class="publication-year">2023</div>
+    <div class="publication-studies">
+      <div class="study-row">
+        <div class="study-name">Study Name 1</div>
+        <div class="study-description">Description for study 1 goes here.</div>
+      </div>
+      <div class="study-row">
+        <div class="study-name">Study Name 2</div>
+        <div class="study-description">Description for study 2 goes here.</div>
+      </div>
+    </div>
+  </div>
+  <div class="publication-row">
+    <div class="publication-year">2022</div>
+    <div class="publication-studies">
+      <div class="study-row">
+        <div class="study-name">Study Name 3</div>
+        <div class="study-description">Description for study 3 goes here.</div>
+      </div>
+    </div>
+  </div>
+  <!-- Add more rows as needed -->
+</section>
+
+{{ end }}
