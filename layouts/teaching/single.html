@@ -48,5 +48,25 @@
       and we can discuss further details!
     </p>
   </div>
+
+  <!-- Teaching Experience -->
+  <h1 class="section-title">Teaching Experience</h1>
+  <div class="workshop-section">
+    {{ range .Params.experience }}
+    <div class="experience-row">
+      <div class="experience-column">
+        <span class="experience-role-title">{{ .role }}</span>
+      </div>
+      <div class="experience-column">
+        <span class="experience-details"
+          >{{ .department }}<br />
+          {{ .institution }}<br />
+          {{ .duration }} • {{ .location }}</span
+        >
+        <span class="experience-description">{{ .description }}</span>
+      </div>
+    </div>
+    {{ end }}
+  </div>
 </section>
 {{ end }}

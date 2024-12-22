@@ -415,7 +415,8 @@ p {
   margin: 1rem; }
 
 .teaching-section,
-.workshop-section {
+.workshop-section,
+.experience-section {
   display: flex;
   flex-direction: column;
   /* Stack child elements vertically */
@@ -459,3 +460,29 @@ p {
 .workshop-inquiry {
   font-weight: bold;
   font-style: italic; }
+
+.experience-row {
+  display: flex;
+  width: 100%;
+  margin: 20px 20px; }
+
+.experience-column {
+  width: 50%;
+  padding-right: 120px;
+  display: flex;
+  flex-direction: column; }
+
+.experience-role-title {
+  font-family: Exo;
+  font-size: 36px;
+  color: #752718; }
+
+.experience-details {
+  font-family: DM Sans;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px; }
+
+.experience-description {
+  font-family: DM Sans;
+  font-size: 1.5rem; }
