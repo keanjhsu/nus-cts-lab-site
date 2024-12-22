@@ -414,21 +414,24 @@ p {
   color: #752718;
   margin: 1rem; }
 
-.teaching-section {
+.teaching-section,
+.workshop-section {
+  display: flex;
+  flex-direction: column;
+  /* Stack child elements vertically */
+  align-items: flex-start;
+  margin: 20px 20px 40px; }
+
+.teaching-row,
+.workshop-row {
   display: flex;
   flex-direction: column;
   /* Stack child elements vertically */
   align-items: flex-start;
   margin: 20px 20px; }
 
-.teaching-row {
-  display: flex;
-  flex-direction: column;
-  /* Stack child elements vertically */
-  align-items: flex-start;
-  margin: 20px 20px; }
-
-.teaching-title {
+.teaching-title,
+.workshop-title {
   font-family: Exo;
   font-size: 48px;
   color: #752718;
@@ -440,9 +443,19 @@ p {
   color: #dc7049;
   text-decoration: underline; }
 
+.workshop-course {
+  font-family: Exo;
+  font-size: 36px;
+  color: #dc7049; }
+
 .teaching-link {
   text-decoration: none; }
 
-.teaching-course-content {
+.teaching-course-content,
+.workshop-course-content {
   font-family: DM Sans;
   font-size: 1.5rem; }
+
+.workshop-inquiry {
+  font-weight: bold;
+  font-style: italic; }

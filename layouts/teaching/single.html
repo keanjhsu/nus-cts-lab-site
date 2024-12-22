@@ -30,13 +30,23 @@
       >
       <span class="teaching-course-content"> {{ .description }} </span>
     </div>
-
     {{ end }}
   </div>
 
   <!-- Workshops Taught -->
-  <div class="teaching-row">
-    <span class="teaching-title">Workshops Taught</span>
+  <div class="workshop-section">
+    <span class="workshop-title">Workshops Taught</span>
+    {{ range .Params.workshop }}
+    <div class="workshop-row">
+      <span class="workshop-course">{{ .name }}</span>
+      <span class="workshop-course-content"> {{ .description }} </span>
+    </div>
+    {{ end }}
+    <p class="workshop-inquiry">
+      If you would be interested in having me present a mental health
+      education/stigma reduction workshop in your community, please reach out
+      and we can discuss further details!
+    </p>
   </div>
 </section>
 {{ end }}
