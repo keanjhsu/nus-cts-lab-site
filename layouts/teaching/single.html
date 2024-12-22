@@ -1,0 +1,72 @@
+{{ define "main" }}
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Exo";
+    }
+  </style>
+  <link
+    href="https://fonts.googleapis.com/css?family=DM Sans"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "DM Sans";
+    }
+  </style>
+</head>
+
+<section class="section">
+  <h1 class="section-title">Teaching</h1>
+
+  <!-- Courses Taught -->
+  <div class="teaching-section">
+    <span class="teaching-title">Courses Taught</span>
+    {{ range .Params.course }}
+    <div class="teaching-row">
+      <a href="{{ .nusmodLink }}" class="teaching-link"
+        ><span class="teaching-course">{{ .name }}</span></a
+      >
+      <span class="teaching-course-content"> {{ .description }} </span>
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- Workshops Taught -->
+  <div class="workshop-section">
+    <span class="workshop-title">Workshops Taught</span>
+    {{ range .Params.workshop }}
+    <div class="workshop-row">
+      <span class="workshop-course">{{ .name }}</span>
+      <span class="workshop-course-content"> {{ .description }} </span>
+    </div>
+    {{ end }}
+    <p class="workshop-inquiry">
+      If you would be interested in having me present a mental health
+      education/stigma reduction workshop in your community, please reach out
+      and we can discuss further details!
+    </p>
+  </div>
+
+  <!-- Teaching Experience -->
+  <h1 class="section-title">Teaching Experience</h1>
+  <div class="workshop-section">
+    {{ range .Params.experience }}
+    <div class="experience-row">
+      <div class="experience-column">
+        <span class="experience-role-title">{{ .role }}</span>
+      </div>
+      <div class="experience-column">
+        <span class="experience-details"
+          >{{ .department }}<br />
+          {{ .institution }}<br />
+          {{ .duration }} • {{ .location }}</span
+        >
+        <span class="experience-description">{{ .description }}</span>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
