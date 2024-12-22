@@ -1,0 +1,33 @@
+.resources-section {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  margin: 20px 20px 40px;
+}
+
+.resources-row {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: flex-start;
+  margin: 20px 20px;
+}
+
+.resources-title {
+  font-family: Exo;
+  font-size: 48px;
+  color: #752718;
+  margin: 0 1rem;
+}
+
+.read-more-row {
+  display: flex;
+  justify-content: center;
+}
+
+.read-more-row button {
+  background-color: #2f4e6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
