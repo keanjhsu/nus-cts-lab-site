@@ -1,0 +1,45 @@
+{{ define "main" }}
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Exo";
+    }
+  </style>
+  <link
+    href="https://fonts.googleapis.com/css?family=DM Sans"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "DM Sans";
+    }
+  </style>
+</head>
+
+<section class="section">
+  <!-- Outreach -->
+  <h1 class="section-title">Outreach</h1>
+  <div class="service-section">
+    {{ range .Params.outreach }}
+    <div class="service-row">
+      <span class="service-title">{{ .name }}</span>
+      <p>{{ .description }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<section class="section">
+  <!-- Mentorship -->
+  <h1 class="section-title">Mentorship</h1>
+  <div class="service-section">
+    {{ range .Params.mentorship }}
+    <div class="service-row">
+      <span class="service-title">{{ .name }}</span>
+      <p>{{ .description }}</p>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
