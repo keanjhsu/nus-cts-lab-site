@@ -18,7 +18,7 @@
 </head>
 
 <!-- Research Themes Section -->
-<section class="section research-themes">
+<section class="section research-themes" id="research-themes">
   <h1 class="section-title">Research Themes</h1>
   {{ range $index, $element := .Params.research }}
   <a
@@ -39,7 +39,7 @@
 </section>
 
 <!-- Ongoing Projects Section -->
-<section class="section ongoing-projects">
+<section class="section ongoing-projects" id="ongoing-projects">
   <h1 class="section-title">Ongoing Projects</h1>
   {{ range .Params.project }}
   <div class="project-row">
@@ -57,7 +57,7 @@
 </section>
 
 <!-- Publications Section -->
-<section class="section publications">
+<section class="section publications" id="publications">
   <h1 class="section-title">Publications</h1>
   {{ range .Params.publication }}
   <div class="publication-row">
