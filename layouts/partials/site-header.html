@@ -1,0 +1,11 @@
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }} {{ if
+$featured_image }}
+<header
+  class="cover bg-top"
+  style="background-image: url('{{ $featured_image }}');"
+>
+  {{ partial "site-navigation.html" . }}
+</header>
+{{ else }}
+<header>{{ partial "site-navigation.html" . }}</header>
+{{ end }}

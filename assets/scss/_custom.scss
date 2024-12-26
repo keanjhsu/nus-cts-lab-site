@@ -36,13 +36,14 @@
 
 /* Navigation Bar */
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
   padding: 1rem 5%;
-  border-bottom: 1px solid #ccc;
-  position: relative;
 }
 
 .navbar-logo .logo {
@@ -58,9 +59,9 @@
 }
 
 .nav-item > a {
+  font-family: DM Sans;
   text-decoration: none;
   color: #2f4e6b;
-  font-weight: bold;
   padding: 0.5rem 1rem;
   transition: background-color 0.3s ease;
 }
