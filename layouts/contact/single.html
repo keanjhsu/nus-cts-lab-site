@@ -1,0 +1,112 @@
+{{ define "main" }}
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet" />
+  <style>
+    body {
+      font-family: "Exo";
+    }
+  </style>
+  <link
+    href="https://fonts.googleapis.com/css?family=DM Sans"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "DM Sans";
+    }
+  </style>
+</head>
+
+<section class="section">
+  <!-- Join Us! -->
+  <h1 class="section-title">Join Us!</h1>
+  <div class="join-us-section">
+    <img
+      src="/images/people/group-pic.png"
+      alt="Lab Group"
+      class="group-picture"
+    />
+    <p>
+      If you are a <b>graduate or undergraduate</b> student passionate about
+      research in clinical psychology, or a <b>collaborator</b>, scroll down to
+      learn more about opportunities to get involved in our lab. <br /><br />If
+      you are <b>seeking clinical training</b>, or are interested in inviting
+      Dr. Hsu to
+      <b>deliver a speech on mental health or clinical psychology</b>, you are
+      also in the right place. <br /><br />No matter your interest, we’re glad
+      you’re here! Explore the options below or contact us for more information.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <!-- Graduate Students -->
+  <h1 class="sub-title">Graduate Students</h1>
+  <p>
+    We are currently taking in both Masters and Ph.D. students to our lab. For
+    Masters' students, we welcome both current undergraduates applying for the
+    Concurrent Degree Programme (CDP), as well as prospective Master of Social
+    Sciences (Psychology) students. <br />
+    <br />For applicants of our graduate programme, you may find the following
+    information useful: <br />- Concurrent Degree Programme<br />- Graduate
+    School Application<br />
+    <br />To indicate your interest to join our lab as a graduate student,
+    please email Dr. Hsu (kean.hsu@nus.edu.sg) directly! He is accepting
+    graduate students for (acad year + sem).
+  </p>
+</section>
+
+<section class="section">
+  <!-- Undergraduate Students -->
+  <h1 class="sub-title">Undergraduate Students</h1>
+  <p>
+    We welcome motivated undergraduate and graduate students to apply to our
+    lab, either as part of a module or a volunteer research assistant.
+  </p>
+
+  <span class="sub-sub-title">Module-Based Research</span>
+  {{ range .Params.moduleBasedResearch }}
+  <p class="module-based-research">
+    <a href="{{ .link }}" class="module-based-research-link">{{ .title }}</a>
+    ({{ .code }})
+  </p>
+  {{ end }}
+  <br />
+
+  <span class="sub-sub-title">Volunteer RA (not sure if we have this)</span>
+  <p>
+    Alternatively for undergraduates, you are welcome to apply to our lab as a
+    volunteer research assistant! <br /><br />If you are interested in obtaining
+    research experience with the CTS lab, please email Dr. Hsu
+    (kean.hsu@nus.edu.sg) directly! He is accepting graduate students for (acad
+    year + sem).
+  </p>
+</section>
+
+<section class="section">
+  <!-- Collaborators -->
+  <h1 class="sub-title">Collaborators</h1>
+  <p>
+    We are always eager to connect with collaborators who share our passion for
+    advancing mental health research. Whether you are a researcher or clinician
+    interested in partnering on projects related to anxiety, depression,
+    cognitive processes, or treatment development, we would love to hear from
+    you. <br /><br />Feel free to contact Dr. Hsu (kean.hsu@nus.edu.sg) for
+    further discussion :)
+  </p>
+</section>
+
+<section class="section">
+  <!-- Clinical Training -->
+  <h1 class="section-title">Clinical Training</h1>
+  <p>ask prof for details!</p>
+</section>
+
+<section class="section">
+  <!-- Public Speaking on Mental Health and Clinical Psychology -->
+  <h1 class="section-title">
+    Public Speaking on Mental Health and Clinical Psychology
+  </h1>
+  <p>ask prof for details!</p>
+</section>
+{{ end }}
