@@ -7,6 +7,7 @@
   font-size: 64px;
   margin-bottom: 20px;
   color: #2f4e6b;
+  font-weight: 900;
 }
 .research-row.reverse {
   flex-direction: row-reverse;
@@ -44,6 +45,7 @@
   font-size: 36px;
   margin-bottom: 10px;
   color: #752718;
+  font-weight: 900;
 }
 .project-content {
   display: flex;
@@ -79,7 +81,7 @@
   color: #752718;
   font-size: 48px;
   flex: 0 0 20%;
-  font-weight: bold;
+  font-weight: 900;
   padding-right: 10px;
 }
 .publication-studies {
@@ -110,6 +112,7 @@
   font-family: Exo;
   font-size: 48px;
   color: #752718;
+  font-weight: 900;
 }
 .relevant-work-list {
   list-style-type: disc; /* Adds bullet points */
