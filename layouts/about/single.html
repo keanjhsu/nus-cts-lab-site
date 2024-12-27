@@ -21,13 +21,10 @@
   <!-- Lab Director Section -->
   <section class="lab-director" id="lab-director">
     <span class="section-title">Lab Director</span>
-    <a href="{{ site.BaseURL }}/about/lab-director" class="profile-link">
+    <a href="lab-director" class="profile-link">
       <div class="director-profile">
-        <img
-          src="/images/people/prof-kean.png"
-          alt="Lab Director"
-          class="profile-picture"
-        />
+        <img src={{ "images/people/prof-kean.png" | relURL }} alt="Lab Director"
+        class="profile-picture" />
         <div class="profile-details">
           <h3>Kean J. Hsu, Ph.D.</h3>
           <p>Assistant Professor</p>
@@ -42,16 +39,10 @@
     <span class="section-title">Current Members</span>
     <div class="members-grid">
       {{ range .Site.Data.members.current }}
-      <a
-        href="{{ .site.BaseURL }}/about/member/{{ .slug }}"
-        class="profile-link"
-      >
+      <a href="member/{{ .slug }}" class="profile-link">
         <div class="member-profile">
-          <img
-            src="/images/people/member/{{ .slug }}.png"
-            alt="{{ .name }}"
-            class="profile-picture"
-          />
+          <img src={{ printf "images/people/member/%s.png" .slug | relURL }}
+          alt="{{ .name }}" class="profile-picture" />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
@@ -65,16 +56,10 @@
     <span class="section-title">Collaborators</span>
     <div class="members-grid">
       {{ range .Site.Data.members.collaborators }}
-      <a
-        href="{{ .site.BaseURL }}/about/collaborator/{{ .slug }}"
-        class="profile-link"
-      >
+      <a href="collaborator/{{ .slug }}" class="profile-link">
         <div class="member-profile">
-          <img
-            src="/images/people/collaborator/{{ .slug }}.png"
-            alt="{{ .name }}"
-            class="profile-picture"
-          />
+          <img src={{ printf "images/people/collaborator/%s.png" .slug | relURL
+          }} alt="{{ .name }}" class="profile-picture" />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
@@ -88,16 +73,10 @@
     <span class="section-title">Alumni</span>
     <div class="members-grid">
       {{ range .Site.Data.members.alumni }}
-      <a
-        href="{{ .site.BaseURL }}/about/alumni/{{ .slug }}"
-        class="profile-link"
-      >
+      <a href="alumni/{{ .slug }}" class="profile-link">
         <div class="member-profile">
-          <img
-            src="/images/people/alumni/{{ .slug }}.png"
-            alt="{{ .name }}"
-            class="profile-picture"
-          />
+          <img src={{ printf "images/people/alumni/%s.png" .slug | relURL }}
+          alt="{{ .name }}" class="profile-picture" />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
