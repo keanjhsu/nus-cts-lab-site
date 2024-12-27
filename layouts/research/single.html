@@ -27,7 +27,10 @@
   >
     <div class="research-row {{ if mod $index 2 }}reverse{{ end }}">
       <div class="research-image">
-        <img src="{{ $element.image }}" alt="{{ $element.description }}" />
+        <img
+          src="{{ $element.image | relURL }}"
+          alt="{{ $element.description }}"
+        />
       </div>
       <div class="research-text">
         <span>{{ $element.description }}</span>
