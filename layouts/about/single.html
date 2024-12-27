@@ -21,7 +21,7 @@
   <!-- Lab Director Section -->
   <section class="lab-director" id="lab-director">
     <span class="section-title">Lab Director</span>
-    <a href="{{ site.BaseURL }}/about/lab-director" class="profile-link">
+    <a href="lab-director" class="profile-link">
       <div class="director-profile">
         <img
           src="/images/people/prof-kean.png"
@@ -42,10 +42,7 @@
     <span class="section-title">Current Members</span>
     <div class="members-grid">
       {{ range .Site.Data.members.current }}
-      <a
-        href="{{ .site.BaseURL }}/about/member/{{ .slug }}"
-        class="profile-link"
-      >
+      <a href="member/{{ .slug }}" class="profile-link">
         <div class="member-profile">
           <img
             src="/images/people/member/{{ .slug }}.png"
@@ -65,10 +62,7 @@
     <span class="section-title">Collaborators</span>
     <div class="members-grid">
       {{ range .Site.Data.members.collaborators }}
-      <a
-        href="{{ .site.BaseURL }}/about/collaborator/{{ .slug }}"
-        class="profile-link"
-      >
+      <a href="collaborator/{{ .slug }}" class="profile-link">
         <div class="member-profile">
           <img
             src="/images/people/collaborator/{{ .slug }}.png"
@@ -88,10 +82,7 @@
     <span class="section-title">Alumni</span>
     <div class="members-grid">
       {{ range .Site.Data.members.alumni }}
-      <a
-        href="{{ .site.BaseURL }}/about/alumni/{{ .slug }}"
-        class="profile-link"
-      >
+      <a href="alumni/{{ .slug }}" class="profile-link">
         <div class="member-profile">
           <img
             src="/images/people/alumni/{{ .slug }}.png"
