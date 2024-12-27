@@ -21,10 +21,7 @@
 <section class="section research-themes" id="research-themes">
   <h1 class="section-title">Research Themes</h1>
   {{ range $index, $element := .Params.research }}
-  <a
-    href="{{ .site.BaseURL }}/research/theme/{{ .link }}"
-    class="research-link"
-  >
+  <a href="theme/{{ .link }}" class="research-link">
     <div class="research-row {{ if mod $index 2 }}reverse{{ end }}">
       <div class="research-image">
         <img
