@@ -1,6 +1,6 @@
 baseURL = 'https://keanjhsu.com'
 languageCode = 'en-us'
-title = 'Prof Kean Lab Site'
+title = 'NUS Clinical Translational Science Laboratory - Led by Dr. Kean J. HSU'
 theme = 'ananke'
 
 [permalinks]

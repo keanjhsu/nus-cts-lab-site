@@ -1,2 +1,2 @@
 # lab-site
-Prof Kean's Psychology Lab Site
+NUS Clinical Psychology Clinical Translational Science Lab led by Dr. Kean J. HSU
