@@ -20,7 +20,6 @@
 
 .content-text {
   flex: 1;
-  font-size: 1.2rem;
   line-height: 1.6; }
 
 .content-image img {
@@ -163,7 +162,7 @@ h3 {
 
 p {
   font-family: DM Sans;
-  font-size: 1.5rem;
+  font-size: 16px;
   margin: 0.5rem; }
 
 .layout-container {
@@ -232,7 +231,7 @@ p {
 
 .about-section-title {
   font-family: Exo;
-  font-size: 48px;
+  font-size: 36px;
   color: #752718;
   margin: 0.5rem;
   font-weight: 900; }
@@ -254,28 +253,28 @@ p {
 
 h1 {
   font-family: Exo;
-  font-size: 64px;
+  font-size: 48px;
   color: #2f4e6b;
   margin: 0.5rem; }
 
 h3 {
   font-family: DM Sans;
-  font-size: 1.875rem;
+  font-size: 24px;
   color: #859ea0;
   margin: 0.5rem; }
 
 p {
   font-family: DM Sans;
-  font-size: 24px;
+  font-size: 16px;
   margin: 1rem; }
 
 .section {
-  margin: 80px 80px; }
+  margin: 40px 80px; }
 
 .section-title {
   font-family: Exo;
   text-align: center;
-  font-size: 64px;
+  font-size: 48px;
   margin-bottom: 20px;
   color: #2f4e6b;
   font-weight: 900; }
@@ -308,7 +307,7 @@ p {
 
 .research-text {
   font-family: DM Sans;
-  font-size: 30px;
+  font-size: 24px;
   flex: 0 0 80%; }
 
 .project-row {
@@ -316,7 +315,7 @@ p {
 
 .project-title {
   font-family: Exo;
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 10px;
   color: #752718;
   font-weight: 900; }
@@ -353,7 +352,7 @@ p {
 .publication-year {
   font-family: Exo;
   color: #752718;
-  font-size: 48px;
+  font-size: 36px;
   flex: 0 0 20%;
   font-weight: 900;
   padding-right: 10px; }
@@ -367,11 +366,11 @@ p {
 .study-name {
   font-family: DM Sans;
   font-weight: bold;
-  font-size: 24px; }
+  font-size: 18px; }
 
 .study-description {
   font-family: DM Sans;
-  font-size: 24px; }
+  font-size: 18px; }
 
 .research-theme-description {
   align-items: center; }
@@ -388,7 +387,7 @@ p {
 
 .relevant-work-title {
   font-family: Exo;
-  font-size: 48px;
+  font-size: 36px;
   color: #752718;
   font-weight: 900; }
 
@@ -409,7 +408,7 @@ p {
 
 .clinical-title {
   font-family: Exo;
-  font-size: 48px;
+  font-size: 36px;
   color: #752718;
   margin: 1rem;
   font-weight: 900; }
@@ -429,25 +428,25 @@ p {
   flex-direction: column;
   /* Stack child elements vertically */
   align-items: flex-start;
-  margin: 20px 20px; }
+  margin: 10px 20px; }
 
 .teaching-title,
 .workshop-title {
   font-family: Exo;
-  font-size: 48px;
+  font-size: 36px;
   color: #752718;
   margin: 1rem;
   font-weight: 900; }
 
 .teaching-course {
   font-family: Exo;
-  font-size: 36px;
+  font-size: 28px;
   color: #dc7049;
   text-decoration: underline; }
 
 .workshop-course {
   font-family: Exo;
-  font-size: 36px;
+  font-size: 28px;
   color: #dc7049; }
 
 .teaching-link {
@@ -457,7 +456,7 @@ p {
 .teaching-course-content,
 .workshop-course-content {
   font-family: DM Sans;
-  font-size: 1.5rem; }
+  font-size: 18px; }
 
 .workshop-inquiry {
   font-weight: bold;
@@ -476,19 +475,19 @@ p {
 
 .experience-role-title {
   font-family: Exo;
-  font-size: 36px;
+  font-size: 28px;
   color: #752718;
   font-weight: 900; }
 
 .experience-details {
   font-family: DM Sans;
-  font-size: 1.5rem;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px; }
 
 .experience-description {
   font-family: DM Sans;
-  font-size: 1.5rem; }
+  font-size: 18px; }
 
 .service-section {
   display: flex;
@@ -506,7 +505,7 @@ p {
 
 .service-title {
   font-family: Exo;
-  font-size: 48px;
+  font-size: 36px;
   color: #752718;
   margin: 0 1rem;
   font-weight: 900; }
@@ -526,7 +525,7 @@ p {
 
 .resources-title {
   font-family: Exo;
-  font-size: 48px;
+  font-size: 36px;
   color: #752718;
   margin: 0 1rem;
   font-weight: 900; }
@@ -556,14 +555,14 @@ p {
 
 .sub-title {
   font-family: Exo;
-  font-size: 48px;
+  font-size: 36px;
   color: #752718;
   font-weight: 900;
   text-align: center; }
 
 .sub-sub-title {
   font-family: Exo;
-  font-size: 36px;
+  font-size: 28px;
   color: #dc7049;
   margin: 1rem 1rem 0;
   display: inline-block; }

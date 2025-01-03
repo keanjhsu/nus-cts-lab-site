@@ -1,10 +1,10 @@
 .section {
-  margin: 80px 80px;
+  margin: 40px 80px;
 }
 .section-title {
   font-family: Exo;
   text-align: center;
-  font-size: 64px;
+  font-size: 48px;
   margin-bottom: 20px;
   color: #2f4e6b;
   font-weight: 900;
@@ -34,7 +34,7 @@
 }
 .research-text {
   font-family: DM Sans;
-  font-size: 30px;
+  font-size: 24px;
   flex: 0 0 80%;
 }
 .project-row {
@@ -42,7 +42,7 @@
 }
 .project-title {
   font-family: Exo;
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 10px;
   color: #752718;
   font-weight: 900;
@@ -79,7 +79,7 @@
 .publication-year {
   font-family: Exo;
   color: #752718;
-  font-size: 48px;
+  font-size: 36px;
   flex: 0 0 20%;
   font-weight: 900;
   padding-right: 10px;
@@ -93,11 +93,11 @@
 .study-name {
   font-family: DM Sans;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
 }
 .study-description {
   font-family: DM Sans;
-  font-size: 24px;
+  font-size: 18px;
 }
 .research-theme-description {
   align-items: center;
@@ -110,7 +110,7 @@
 }
 .relevant-work-title {
   font-family: Exo;
-  font-size: 48px;
+  font-size: 36px;
   color: #752718;
   font-weight: 900;
 }
