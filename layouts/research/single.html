@@ -19,7 +19,7 @@
 
 <!-- Research Themes Section -->
 <section class="section research-themes" id="research-themes">
-  <h1 class="section-title">Research Themes</h1>
+  <div class="section-title">Research Themes</div>
   {{ range $index, $element := .Params.research }}
   <a href="theme/{{ .link }}" class="research-link">
     <div class="research-row {{ if mod $index 2 }}reverse{{ end }}">
@@ -40,7 +40,7 @@
 
 <!-- Ongoing Projects Section -->
 <section class="section ongoing-projects" id="ongoing-projects">
-  <h1 class="section-title">Ongoing Projects</h1>
+  <div class="section-title">Ongoing Projects</div>
   {{ range .Params.project }}
   <div class="project-row">
     <div class="project-title">{{ .title }}</div>
@@ -58,7 +58,7 @@
 
 <!-- Publications Section -->
 <section class="section publications" id="publications">
-  <h1 class="section-title">Publications</h1>
+  <div class="section-title">Publications</div>
   {{ range .Params.publication }}
   <div class="publication-row">
     <div class="publication-year">{{ .year }}</div>

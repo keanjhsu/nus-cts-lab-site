@@ -12,38 +12,40 @@
   display: flex;
   flex-direction: column; /* Stack child elements vertically */
   align-items: flex-start;
-  margin: 20px 20px;
+  margin: 10px 20px;
 }
 
 .teaching-title,
 .workshop-title {
   font-family: Exo;
-  font-size: 48px;
+  font-size: 36px;
   color: #752718;
   margin: 1rem;
+  font-weight: 900;
 }
 
 .teaching-course {
   font-family: Exo;
-  font-size: 36px;
+  font-size: 28px;
   color: #dc7049;
   text-decoration: underline;
 }
 
 .workshop-course {
   font-family: Exo;
-  font-size: 36px;
+  font-size: 28px;
   color: #dc7049;
 }
 
 .teaching-link {
   text-decoration: none;
+  font-weight: 900;
 }
 
 .teaching-course-content,
 .workshop-course-content {
   font-family: DM Sans;
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 
 .workshop-inquiry {
@@ -66,18 +68,19 @@
 
 .experience-role-title {
   font-family: Exo;
-  font-size: 36px;
+  font-size: 28px;
   color: #752718;
+  font-weight: 900;
 }
 
 .experience-details {
   font-family: DM Sans;
-  font-size: 1.5rem;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .experience-description {
   font-family: DM Sans;
-  font-size: 1.5rem;
+  font-size: 18px;
 }
