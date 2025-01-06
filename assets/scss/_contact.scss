@@ -11,6 +11,25 @@
   margin: 1rem 0;
 }
 
+.join-us-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.join-us-row {
+  display: flex;
+  justify-content: center;
+}
+
+.join-us-row button {
+  background-color: #2f4e6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .sub-title {
   font-family: Exo;
   font-size: 36px;
