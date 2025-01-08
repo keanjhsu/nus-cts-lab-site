@@ -2,39 +2,151 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prof Kean Lab Site</title>
-    <link>https://keanjhsu.com:1313/about/</link>
+    <link>http://localhost:1313/about/</link>
     <description>Recent content on Prof Kean Lab Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://keanjhsu.com:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Coder</title>
-      <link>https://keanjhsu.com:1313/about/collaborator/grace-yong/</link>
+      <link>http://localhost:1313/about/collaborator/grace-yong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/about/collaborator/grace-yong/</guid>
+      <guid>http://localhost:1313/about/collaborator/grace-yong/</guid>
       <description>&lt;p&gt;Information about Grace Yong&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Kean</title>
-      <link>https://keanjhsu.com:1313/about/alumni/kean/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/about/alumni/kean/</guid>
-      <description>&lt;p&gt;Bio and other details about Kean.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Lab Director</title>
-      <link>https://keanjhsu.com:1313/about/lab-director/</link>
+      <link>http://localhost:1313/about/lab-director/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/about/lab-director/</guid>
+      <guid>http://localhost:1313/about/lab-director/</guid>
       <description>&lt;p&gt;Kean J. Hsu is an Assistant Professor in the Department of Psychiatry at Georgetown University. He studies how dysfunction in basic cognitive processes, like attention and executive functioning, contribute to the development and maintenance of depression and related psychopathology (e.g., co-morbid anxiety).&lt;/p&gt;&#xA;&lt;p&gt;He is also interested in clarifying predictors and mediators of psychotherapeutic response for depression and anxiety in real-world settings, developing and refining scalable interventions (e.g., cognitive training, single-session psychotherapeutic interventions), improving measurement reliability and validity, and increasing awareness of issues surrounding mental health and stigma in typically underserved communities.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>RA</title>
-      <link>https://keanjhsu.com:1313/about/member/justina-tan/</link>
+      <title>MA Clinical Psych</title>
+      <link>http://localhost:1313/about/member/willie-tan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/about/member/justina-tan/</guid>
+      <guid>http://localhost:1313/about/member/willie-tan/</guid>
+      <description>&lt;p&gt;Willie has long aspired to be a clinical psychologist to help clients navigate their challenges and lead more fulfilling lives. His research interests lie in mood disorders, cognition, and how relationships lead to or resolve people against psychological dysfunction. His plans after graduation will be to work in a local public hospital.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post-bac</title>
+      <link>http://localhost:1313/about/member/huang-qingyi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/huang-qingyi/</guid>
+      <description>&lt;p&gt;Qingyi graduated from the National University of Singapore with a degree in Psychology (First Class Honours). She is keen to further her studies by pursuing Masters in Clinical Psychology/Speech &amp;amp; Language Pathology, with particular interest in developmental disabilities like Autism Spectrum Disorder. She is passionate about serving vulnerable populations including children with developmental disabilities and/or mental health disorders, as well as their families.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RA</title>
+      <link>http://localhost:1313/about/member/justina-tan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/justina-tan/</guid>
       <description>&lt;p&gt;Information about Justina Tan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/chong-jie-ee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/chong-jie-ee/</guid>
+      <description>&lt;p&gt;Jie Ee is a Y2 Psychology Major and her main areas of interests are related to clinical and developmental psychology such as how parenting/childhood experiences can create a vulnerability for mental illness and the relationship between social media and depression/anxiety. She plans to work with children and youths in the clinical/counselling sector in the future!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/deryn-goon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/deryn-goon/</guid>
+      <description>&lt;p&gt;Midway through her second year at NUS as a Psychology major, Deryn has her eyes on the abnormal, social and developmental sides of the field. She is keen to gain a better understanding of the underlying determinants of stress and disorder, from common factors like anxiety to even issues in dermatology, as well as contribute to our handle on therapeutic interventions. In the future, she hopes to work in areas to do with social processes or children.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/dylan-gunasekharan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/dylan-gunasekharan/</guid>
+      <description>&lt;p&gt;Dylan is a Psychology undergraduate in his second year, with a second Major in Life Sciences. He has a strong interest in the inner workings of the human mind and behaviour, as well as the interactions between the organisms within the ecosystem, as well as the ecosystem itself, which the Life Sciences emphasise and tie into Psychology. Currently, he aims to complete his Bachelor&amp;rsquo;s in said areas after completion of the research in the lab.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/hannah-ong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/hannah-ong/</guid>
+      <description>&lt;p&gt;Hannah is a psychology major who is interested in abnormal psychology and child development, particularly in the area of special needs. She hopes to pursue a career that would allow her to work as a clinical practitioner, alternatively, marrying her interests by working in the field of child psychology!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/rylan-wah/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/rylan-wah/</guid>
+      <description>&lt;p&gt;Rylan is currently a Year 2 Psychology major also minoring in Economics. His general topics of interest include social and clinical psychology especially in the context of Singapore where mental health awareness is on the rise for some conditions such as anxiety but not so much so in others. Hence, he would like to pursue a master&amp;rsquo;s in clinical psychology for his postgraduate studies to further contribute in the field of psychology in Singapore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/sheryl-liew-peh-ling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/sheryl-liew-peh-ling/</guid>
+      <description>&lt;p&gt;Sheryl is a second year undergraduate majoring in Communication and Psychology in University at Buffalo, SUNY. She is interested in cognitions, clinical psychology, the effects of exposure to media and entertainment, and how health communication can affectively improve mental health. After graduation, Sheryl will potentially gain more experience in research, communication and/or psychology related roles before deciding on post-graduate options.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/sunny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/sunny/</guid>
+      <description>&lt;p&gt;Sunny is a 2nd year Psych major interested to learn more about clinical psychology as a field. She hopes to understand lab work and what the field entails, and find her place in the psychology world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/member/stephanie-peck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/stephanie-peck/</guid>
+      <description>&lt;p&gt;Stephanie is a 2nd Year Psychology Major with a Double Minor in English Literature and Southeast Asian Studies. She is interested in mental health, education and the literary arts. She has too many books on her to-read list but that won&amp;rsquo;t stop her from buying more books. She hopes to pursue clinical studies or counselling after graduation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 3 (UG)</title>
+      <link>http://localhost:1313/about/member/yong-sher-lin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/yong-sher-lin/</guid>
+      <description>&lt;p&gt;Sher Lin is currently a student majoring in Psychology, and she deeply fascinated by the complex interplay between cognition and mental health conditions. She is broadly interested in research that explores the cognitive underpinnings of mental disorders and the potential for cognitive-based interventions.&lt;/p&gt;&#xA;&lt;p&gt;Looking forward, Sher Lin plans to pursue a career in Clinical Psychology or a related field, focusing on innovative therapeutic approaches to treat mental health conditions and improve patient outcomes. Currently, she hopes to work with adult and/or child populations. She is also considering further education in a graduate program in applied clinical research to continue exploring these vital connections.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 4 (UG)</title>
+      <link>http://localhost:1313/about/member/casey-lock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/casey-lock/</guid>
+      <description>&lt;p&gt;Casey is a psychology major with a minor in interactive media development. She is interested in the intersection between social media and mental health, as well as forensic psychology. As for potential future plans, she is looking at either continuing as a lab coordinator in the lab or working in the UX/UI industry.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 4 (UG)</title>
+      <link>http://localhost:1313/about/member/chi-shuxuan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/chi-shuxuan/</guid>
+      <description>&lt;p&gt;Shuxuan majors in Psychology and minor in Spanish. She is interested in anxiety disorders, adolescent development, and education. Her short-term goal is to pursue graduate study and potentially PHD degree.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 4 (UG)</title>
+      <link>http://localhost:1313/about/member/loh-emi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/loh-emi/</guid>
+      <description>&lt;p&gt;Emi is final year a psychology major with a minor in sociology. Her broad research interest lies in cognitive, developmental and clinical psychology. In particular, she is interested in understanding the cognitive factors influencing mood and anxiety disorders and is currently working on her honors thesis to explore the associations between belief updating and reversal learning for individuals with varying symptoms of depression. She hopes to work in the healthcare or social service sector to support individuals with mental health challenges in the future.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 4 (UG)</title>
+      <link>http://localhost:1313/about/member/nicole-leong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/nicole-leong/</guid>
+      <description>&lt;p&gt;Nicole majors in both Psychology and Business Administration, and is interested in research on ADHD and depression, as well as in personality psychology. After graduation, she hopes to complete her Masters in Clinical Psychology, and eventually become a clinical psychologist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 4 (UG)</title>
+      <link>http://localhost:1313/about/member/nicole-yap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/nicole-yap/</guid>
+      <description>&lt;p&gt;Nicole is a Psychology major interested in abnormal/clinical psychology as well as the social aspect of humans. After graduating, she plans to take her Master&amp;rsquo;s and hopefully get to become a clinical psychologist in future!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 5 (UG)</title>
+      <link>http://localhost:1313/about/member/lee-hyung-woon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/lee-hyung-woon/</guid>
+      <description>&lt;p&gt;Hyung Woon is currently majoring in Computer Science and Psychology (2nd major), and he is interested in research that combines both areas. He is planning to take up further studies (Masters and potentially PhD) after graduation!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

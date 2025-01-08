@@ -2,55 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://keanjhsu.com:1313/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2024-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/resources/</loc>
+    <loc>http://localhost:1313/resources/</loc>
     <lastmod>2024-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/service/</loc>
+    <loc>http://localhost:1313/service/</loc>
     <lastmod>2024-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/clinical/</loc>
+    <loc>http://localhost:1313/clinical/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/teaching/</loc>
+    <loc>http://localhost:1313/teaching/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/research/theme/cognitive-processes/</loc>
+    <loc>http://localhost:1313/research/theme/cognitive-processes/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/research/theme/cognitive-biases-social-media/</loc>
+    <loc>http://localhost:1313/research/theme/cognitive-biases-social-media/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/research/theme/executive-functioning/</loc>
+    <loc>http://localhost:1313/research/theme/executive-functioning/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/research/theme/cognitive-biases-role/</loc>
+    <loc>http://localhost:1313/research/theme/cognitive-biases-role/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/research/theme/treatment-development/</loc>
+    <loc>http://localhost:1313/research/theme/treatment-development/</loc>
     <lastmod>2024-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/research/</loc>
+    <loc>http://localhost:1313/research/</loc>
     <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://keanjhsu.com:1313/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://keanjhsu.com:1313/about/collaborator/grace-yong/</loc>
+    <loc>http://localhost:1313/about/collaborator/grace-yong/</loc>
   </url><url>
-    <loc>https://keanjhsu.com:1313/about/alumni/kean/</loc>
+    <loc>http://localhost:1313/about/lab-director/</loc>
   </url><url>
-    <loc>https://keanjhsu.com:1313/about/lab-director/</loc>
+    <loc>http://localhost:1313/about/member/justina-tan/</loc>
   </url><url>
-    <loc>https://keanjhsu.com:1313/about/member/justina-tan/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://keanjhsu.com:1313/tags/</loc>
+    <loc>http://localhost:1313/about/alumni/chong-jie-ee/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/alumni/deryn-goon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/alumni/dylan-gunasekharan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/alumni/hannah-ong/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/alumni/rylan-wah/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/alumni/sheryl-liew-peh-ling/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/stephanie-peck/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/loh-emi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/nicole-leong/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/nicole-yap/</loc>
   </url>
 </urlset>

@@ -2,74 +2,137 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clinical Translational Science Lab on Prof Kean Lab Site</title>
-    <link>https://keanjhsu.com:1313/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Clinical Translational Science Lab on Prof Kean Lab Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://keanjhsu.com:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How basic cognitive processes (e.g., attention, executive function) for emotional and non-emotional information are related to anhedonia and reward dysfunction in psychopathology</title>
-      <link>https://keanjhsu.com:1313/research/theme/cognitive-processes/</link>
+      <link>http://localhost:1313/research/theme/cognitive-processes/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/research/theme/cognitive-processes/</guid>
+      <guid>http://localhost:1313/research/theme/cognitive-processes/</guid>
       <description>&lt;p&gt;Basic cognitive processes (e.g., attention and executive functioning) regulate what information from the environment enters conscious processing and how well that information can be processed and utilized or discarded. When these processes go awry, particularly in the context of negatively-valenced information or stimuli, they may lead to negative mood states and factors associated with depression risk and depression severity.&lt;/p&gt;&#xA;&lt;p&gt;We were the first group to show that while identical twins discordant for depression show no differences in neuropsychological functioning, they exhibit attentional impairment relative to identical twins with no family history of depression. These results suggest the attentional impairments observed in depression are not associated with depression state or history as previously hypothesized and assumed, but rather familial risk for depression.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How cognitive biases naturalistically interact with social media usage to predict maintenance of depression and anxiety symptoms</title>
-      <link>https://keanjhsu.com:1313/research/theme/cognitive-biases-social-media/</link>
+      <link>http://localhost:1313/research/theme/cognitive-biases-social-media/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/research/theme/cognitive-biases-social-media/</guid>
+      <guid>http://localhost:1313/research/theme/cognitive-biases-social-media/</guid>
       <description>&lt;p&gt;How cognitive biases naturalistically interact with social media usage to predict maintenance of depression and anxiety symptoms&lt;/p&gt;</description>
     </item>
     <item>
       <title>How executive functioning (for emotional and non-emotional information) are associated with cognitive biases and emotion regulation</title>
-      <link>https://keanjhsu.com:1313/research/theme/executive-functioning/</link>
+      <link>http://localhost:1313/research/theme/executive-functioning/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/research/theme/executive-functioning/</guid>
+      <guid>http://localhost:1313/research/theme/executive-functioning/</guid>
       <description>&lt;p&gt;How executive functioning (for emotional and non-emotional information) are associated with cognitive biases and emotion regulation&lt;/p&gt;</description>
     </item>
     <item>
       <title>The role of various cognitive biases for emotional information in the maintenance of depression (including experimentally manipulating these cognitive biases)</title>
-      <link>https://keanjhsu.com:1313/research/theme/cognitive-biases-role/</link>
+      <link>http://localhost:1313/research/theme/cognitive-biases-role/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/research/theme/cognitive-biases-role/</guid>
+      <guid>http://localhost:1313/research/theme/cognitive-biases-role/</guid>
       <description>&lt;p&gt;The role of various cognitive biases for emotional information in the maintenance of depression (including experimentally manipulating these cognitive biases)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Treatment development and research</title>
-      <link>https://keanjhsu.com:1313/research/theme/treatment-development/</link>
+      <link>http://localhost:1313/research/theme/treatment-development/</link>
       <pubDate>Sat, 21 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/research/theme/treatment-development/</guid>
+      <guid>http://localhost:1313/research/theme/treatment-development/</guid>
       <description>&lt;p&gt;Treatment development and research&lt;/p&gt;</description>
     </item>
     <item>
       <title>Coder</title>
-      <link>https://keanjhsu.com:1313/about/collaborator/grace-yong/</link>
+      <link>http://localhost:1313/about/collaborator/grace-yong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/about/collaborator/grace-yong/</guid>
+      <guid>http://localhost:1313/about/collaborator/grace-yong/</guid>
       <description>&lt;p&gt;Information about Grace Yong&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Kean</title>
-      <link>https://keanjhsu.com:1313/about/alumni/kean/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/about/alumni/kean/</guid>
-      <description>&lt;p&gt;Bio and other details about Kean.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Lab Director</title>
-      <link>https://keanjhsu.com:1313/about/lab-director/</link>
+      <link>http://localhost:1313/about/lab-director/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/about/lab-director/</guid>
+      <guid>http://localhost:1313/about/lab-director/</guid>
       <description>&lt;p&gt;Kean J. Hsu is an Assistant Professor in the Department of Psychiatry at Georgetown University. He studies how dysfunction in basic cognitive processes, like attention and executive functioning, contribute to the development and maintenance of depression and related psychopathology (e.g., co-morbid anxiety).&lt;/p&gt;&#xA;&lt;p&gt;He is also interested in clarifying predictors and mediators of psychotherapeutic response for depression and anxiety in real-world settings, developing and refining scalable interventions (e.g., cognitive training, single-session psychotherapeutic interventions), improving measurement reliability and validity, and increasing awareness of issues surrounding mental health and stigma in typically underserved communities.&lt;/p&gt;</description>
     </item>
     <item>
       <title>RA</title>
-      <link>https://keanjhsu.com:1313/about/member/justina-tan/</link>
+      <link>http://localhost:1313/about/member/justina-tan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keanjhsu.com:1313/about/member/justina-tan/</guid>
+      <guid>http://localhost:1313/about/member/justina-tan/</guid>
       <description>&lt;p&gt;Information about Justina Tan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/chong-jie-ee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/chong-jie-ee/</guid>
+      <description>&lt;p&gt;Jie Ee is a Y2 Psychology Major and her main areas of interests are related to clinical and developmental psychology such as how parenting/childhood experiences can create a vulnerability for mental illness and the relationship between social media and depression/anxiety. She plans to work with children and youths in the clinical/counselling sector in the future!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/deryn-goon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/deryn-goon/</guid>
+      <description>&lt;p&gt;Midway through her second year at NUS as a Psychology major, Deryn has her eyes on the abnormal, social and developmental sides of the field. She is keen to gain a better understanding of the underlying determinants of stress and disorder, from common factors like anxiety to even issues in dermatology, as well as contribute to our handle on therapeutic interventions. In the future, she hopes to work in areas to do with social processes or children.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/dylan-gunasekharan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/dylan-gunasekharan/</guid>
+      <description>&lt;p&gt;Dylan is a Psychology undergraduate in his second year, with a second Major in Life Sciences. He has a strong interest in the inner workings of the human mind and behaviour, as well as the interactions between the organisms within the ecosystem, as well as the ecosystem itself, which the Life Sciences emphasise and tie into Psychology. Currently, he aims to complete his Bachelor&amp;rsquo;s in said areas after completion of the research in the lab.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/hannah-ong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/hannah-ong/</guid>
+      <description>&lt;p&gt;Hannah is a psychology major who is interested in abnormal psychology and child development, particularly in the area of special needs. She hopes to pursue a career that would allow her to work as a clinical practitioner, alternatively, marrying her interests by working in the field of child psychology!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/rylan-wah/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/rylan-wah/</guid>
+      <description>&lt;p&gt;Rylan is currently a Year 2 Psychology major also minoring in Economics. His general topics of interest include social and clinical psychology especially in the context of Singapore where mental health awareness is on the rise for some conditions such as anxiety but not so much so in others. Hence, he would like to pursue a master&amp;rsquo;s in clinical psychology for his postgraduate studies to further contribute in the field of psychology in Singapore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/alumni/sheryl-liew-peh-ling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/alumni/sheryl-liew-peh-ling/</guid>
+      <description>&lt;p&gt;Sheryl is a second year undergraduate majoring in Communication and Psychology in University at Buffalo, SUNY. She is interested in cognitions, clinical psychology, the effects of exposure to media and entertainment, and how health communication can affectively improve mental health. After graduation, Sheryl will potentially gain more experience in research, communication and/or psychology related roles before deciding on post-graduate options.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 2 (UG)</title>
+      <link>http://localhost:1313/about/member/stephanie-peck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/stephanie-peck/</guid>
+      <description>&lt;p&gt;Stephanie is a 2nd Year Psychology Major with a Double Minor in English Literature and Southeast Asian Studies. She is interested in mental health, education and the literary arts. She has too many books on her to-read list but that won&amp;rsquo;t stop her from buying more books. She hopes to pursue clinical studies or counselling after graduation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 4 (UG)</title>
+      <link>http://localhost:1313/about/member/loh-emi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/loh-emi/</guid>
+      <description>&lt;p&gt;Emi is final year a psychology major with a minor in sociology. Her broad research interest lies in cognitive, developmental and clinical psychology. In particular, she is interested in understanding the cognitive factors influencing mood and anxiety disorders and is currently working on her honors thesis to explore the associations between belief updating and reversal learning for individuals with varying symptoms of depression. She hopes to work in the healthcare or social service sector to support individuals with mental health challenges in the future.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 4 (UG)</title>
+      <link>http://localhost:1313/about/member/nicole-leong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/nicole-leong/</guid>
+      <description>&lt;p&gt;Nicole majors in both Psychology and Business Administration, and is interested in research on ADHD and depression, as well as in personality psychology. After graduation, she hopes to complete her Masters in Clinical Psychology, and eventually become a clinical psychologist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Year 4 (UG)</title>
+      <link>http://localhost:1313/about/member/nicole-yap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/member/nicole-yap/</guid>
+      <description>&lt;p&gt;Nicole is a Psychology major interested in abnormal/clinical psychology as well as the social aspect of humans. After graduating, she plans to take her Master&amp;rsquo;s and hopefully get to become a clinical psychologist in future!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
