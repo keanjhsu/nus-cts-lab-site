@@ -47,6 +47,10 @@
   </url><url>
     <loc>http://localhost:1313/about/lab-director/</loc>
   </url><url>
+    <loc>http://localhost:1313/about/member/willie-tan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/huang-qingyi/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/member/justina-tan/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -63,12 +67,22 @@
   </url><url>
     <loc>http://localhost:1313/about/alumni/sheryl-liew-peh-ling/</loc>
   </url><url>
+    <loc>http://localhost:1313/about/alumni/sunny/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/member/stephanie-peck/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/yong-sher-lin/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/casey-lock/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/chi-shuxuan/</loc>
   </url><url>
     <loc>http://localhost:1313/about/member/loh-emi/</loc>
   </url><url>
     <loc>http://localhost:1313/about/member/nicole-leong/</loc>
   </url><url>
     <loc>http://localhost:1313/about/member/nicole-yap/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/lee-hyung-woon/</loc>
   </url>
 </urlset>
