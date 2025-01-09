@@ -10,6 +10,11 @@
   margin-bottom: 3rem;
 }
 
+.lab-director-mascot {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .profile-link {
   display: block; /* Ensures the entire container is clickable */
   text-decoration: none; /* Removes underline from the link */
