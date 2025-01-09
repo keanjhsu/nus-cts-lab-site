@@ -41,8 +41,11 @@
       {{ range .Site.Data.members.current }}
       <a href="member/{{ .slug }}" class="profile-link">
         <div class="member-profile">
-          <img src={{ printf "images/people/member/%s.png" .slug | relURL }}
-          alt="{{ .name }}" class="profile-picture" />
+          <img
+            src="{{ .picture | relURL }}"
+            alt="{{ .name }}"
+            class="profile-picture"
+          />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
@@ -58,8 +61,11 @@
       {{ range .Site.Data.members.collaborators }}
       <a href="collaborator/{{ .slug }}" class="profile-link">
         <div class="member-profile">
-          <img src={{ printf "images/people/collaborator/%s.png" .slug | relURL
-          }} alt="{{ .name }}" class="profile-picture" />
+          <img
+            src="{{ .picture | relURL }}"
+            alt="{{ .name }}"
+            class="profile-picture"
+          />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
@@ -75,8 +81,11 @@
       {{ range .Site.Data.members.alumni }}
       <a href="alumni/{{ .slug }}" class="profile-link">
         <div class="member-profile">
-          <img src={{ printf "images/people/alumni/%s.png" .slug | relURL }}
-          alt="{{ .name }}" class="profile-picture" />
+          <img
+            src="{{ .picture | relURL }}"
+            alt="{{ .name }}"
+            class="profile-picture"
+          />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
