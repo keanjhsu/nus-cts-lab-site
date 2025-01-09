@@ -19,20 +19,34 @@
 
 <div class="lab-team-container">
   <!-- Lab Director Section -->
-  <section class="lab-director" id="lab-director">
-    <span class="section-title">Lab Director</span>
-    <a href="lab-director" class="profile-link">
+  <div class="lab-director-mascot">
+    <section class="lab-director" id="lab-director">
+      <span class="section-title">Lab Director</span>
+      <a href="lab-director" class="profile-link">
+        <div class="director-profile">
+          <img src={{ "images/people/prof-kean.png" | relURL }} alt="Lab
+          Director" class="profile-picture" />
+          <div class="profile-details">
+            <h3>Kean J. Hsu, Ph.D.</h3>
+            <p>Assistant Professor</p>
+            <p>National University of Singapore</p>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <!-- Lab Mascot -->
+    <section class="lab-director" id="lab-director">
+      <span class="section-title">Lab Mascot</span>
       <div class="director-profile">
-        <img src={{ "images/people/prof-kean.png" | relURL }} alt="Lab Director"
+        <img src={{ "images/people/dog.png" | relURL }} alt="Lab Mascot"
         class="profile-picture" />
         <div class="profile-details">
-          <h3>Kean J. Hsu, Ph.D.</h3>
-          <p>Assistant Professor</p>
-          <p>National University of Singapore</p>
+          <h3>Dog!</h3>
         </div>
       </div>
-    </a>
-  </section>
+    </section>
+  </div>
 
   <!-- Current Members Section -->
   <section class="current-members" id="current-members">
@@ -41,8 +55,11 @@
       {{ range .Site.Data.members.current }}
       <a href="member/{{ .slug }}" class="profile-link">
         <div class="member-profile">
-          <img src={{ printf "images/people/member/%s.png" .slug | relURL }}
-          alt="{{ .name }}" class="profile-picture" />
+          <img
+            src="{{ .picture | relURL }}"
+            alt="{{ .name }}"
+            class="profile-picture"
+          />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
@@ -58,8 +75,11 @@
       {{ range .Site.Data.members.collaborators }}
       <a href="collaborator/{{ .slug }}" class="profile-link">
         <div class="member-profile">
-          <img src={{ printf "images/people/collaborator/%s.png" .slug | relURL
-          }} alt="{{ .name }}" class="profile-picture" />
+          <img
+            src="{{ .picture | relURL }}"
+            alt="{{ .name }}"
+            class="profile-picture"
+          />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>
@@ -75,8 +95,11 @@
       {{ range .Site.Data.members.alumni }}
       <a href="alumni/{{ .slug }}" class="profile-link">
         <div class="member-profile">
-          <img src={{ printf "images/people/alumni/%s.png" .slug | relURL }}
-          alt="{{ .name }}" class="profile-picture" />
+          <img
+            src="{{ .picture | relURL }}"
+            alt="{{ .name }}"
+            class="profile-picture"
+          />
           <h3>{{ .name }}</h3>
           <p>{{ .position }}</p>
         </div>

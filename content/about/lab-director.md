@@ -1,6 +1,6 @@
 ---
 type: "about"
-layout: "details"
+layout: "lab-director"
 
 title: "Lab Director"
 name: "Kean J. Hsu, Ph.D."

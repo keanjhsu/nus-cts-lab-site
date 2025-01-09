@@ -43,31 +43,6 @@
           <p>{{ .Params.institution }}</p>
         </div>
       </div>
-      <!-- Icons Row -->
-      <div class="contact-icons">
-        <a href="mailto:{{ .Params.email }}" style="align-content: center"
-          ><i class="fa fa-envelope" style="color: #328cc1; font-size: 2rem"></i
-        ></a>
-        <a href="{{ .Params.twitter }}"
-          ><i class="fa fa-twitter" style="color: #328cc1; font-size: 2rem"></i
-        ></a>
-        <a href="{{ .Params.googlescholar }}"
-          ><i
-            class="ai ai-google-scholar"
-            style="color: #328cc1; font-size: 2rem"
-          ></i
-        ></a>
-        <a href="{{ .Params.orcid }}"
-          ><i class="ai ai-orcid" style="color: #328cc1; font-size: 2rem"></i
-        ></a>
-        <a href="{{ .Params.osf }}"
-          ><i class="ai ai-osf" style="color: #328cc1; font-size: 2rem"></i
-        ></a>
-      </div>
-      <!-- CV Button Row -->
-      <div class="cv-button-row">
-        <button onclick="window.open('{{ .Params.cv }}')">View CV</button>
-      </div>
     </div>
     <!-- Profile Description Column -->
     <div class="column second-column">
@@ -81,29 +56,6 @@
     <h2 class="about-section-title">Interests</h2>
     <ul class="interests-list">
       {{ range .Params.interests }}
-      <li><p>{{ . }}</p></li>
-      {{ end }}
-    </ul>
-  </div>
-
-  <!-- Education Row -->
-  <div class="row third-row">
-    <h2 class="about-section-title">Education</h2>
-    <ul class="education-list">
-      {{ range .Params.education }}
-      <li>
-        <p><b>{{ .degree }}, {{ .year }}</b></p>
-      </li>
-      <li style="list-style: none"><p>{{ .institution }}</p></li>
-      {{ end }}
-    </ul>
-  </div>
-
-  <!-- Contacts Row -->
-  <div class="row third-row">
-    <h2 class="about-section-title">Contact Me</h2>
-    <ul class="contact-list">
-      {{ range .Params.contact }}
       <li><p>{{ . }}</p></li>
       {{ end }}
     </ul>
