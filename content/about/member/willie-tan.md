@@ -6,7 +6,7 @@ title: "MA Clinical Psych"
 name: "Willie Tan"
 position: "MA Clinical Psych"
 institution: "National University of Singapore"
-picture: "/images/people/"
+picture: "/images/people/member/willie-tan.png"
 interests:
   - "Willie loves to box, read fiction novels, and play video games"
   - "Favourite dessert: Mango or strawberry icecream"

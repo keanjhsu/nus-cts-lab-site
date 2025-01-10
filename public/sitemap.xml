@@ -49,9 +49,9 @@
   </url><url>
     <loc>http://localhost:1313/about/member/willie-tan/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/member/huang-qingyi/</loc>
-  </url><url>
     <loc>http://localhost:1313/about/member/justina-tan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/huang-qingyi/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
@@ -78,6 +78,8 @@
     <loc>http://localhost:1313/about/member/casey-lock/</loc>
   </url><url>
     <loc>http://localhost:1313/about/member/chi-shuxuan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/about/member/kiran/</loc>
   </url><url>
     <loc>http://localhost:1313/about/member/loh-emi/</loc>
   </url><url>
