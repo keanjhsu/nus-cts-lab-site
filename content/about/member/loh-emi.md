@@ -6,7 +6,7 @@ title: "Year 4 (UG)"
 name: "Loh Emi"
 position: "Year 4 (UG)"
 institution: "National University of Singapore"
-picture: "/images/people/"
+picture: "/images/people/member/emi-loh.png"
 interests:
   - "I enjoy volunteering in my free time as it gives me the opportunity to interact with different groups of people including the elderly and persons with mental health conditions."
   - "I also enjoy journaling and breadmaking."
