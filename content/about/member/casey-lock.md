@@ -6,7 +6,7 @@ title: "Year 4 (UG)"
 name: "Casey Lock"
 position: "Year 4 (UG)"
 institution: "National University of Singapore"
-picture: "/images/people/"
+picture: "/images/people/member/casey-lock.png"
 interests:
   - "Reading, crocheting, lazing around 😋"
   - "Favourite dessert: ice creaaaaam!!"

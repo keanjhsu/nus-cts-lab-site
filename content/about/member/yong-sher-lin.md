@@ -6,7 +6,7 @@ title: "Year 3 (UG)"
 name: "Yong Sher Lin"
 position: "Year 3 (UG)"
 institution: "National University of Singapore"
-picture: "/images/people/"
+picture: "/images/people/member/yong-sher-lin.png"
 interests:
   - "In my free time, I enjoy reading, drawing, and playing classical music on the piano!"
   - "Favourite dessert: Bled Cream Cake"
