@@ -73,7 +73,7 @@
     <span class="section-title">Collaborators</span>
     <div class="members-grid">
       {{ range .Site.Data.members.collaborators }}
-      <a href="collaborator/{{ .slug }}" class="profile-link">
+      <a href="{{ .url }}" class="profile-link">
         <div class="member-profile">
           <img
             src="{{ .picture | relURL }}"
@@ -81,7 +81,7 @@
             class="profile-picture"
           />
           <h3>{{ .name }}</h3>
-          <p>{{ .position }}</p>
+          <p>{{ .institution }}</p>
         </div>
       </a>
       {{ end }}
