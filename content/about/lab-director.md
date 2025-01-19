@@ -35,6 +35,6 @@ contact:
   - "Twitter"
 ---
 
-Kean J. Hsu is an Assistant Professor in the Department of Psychiatry at Georgetown University. He studies how dysfunction in basic cognitive processes, like attention and executive functioning, contribute to the development and maintenance of depression and related psychopathology (e.g., co-morbid anxiety).
+Kean J. Hsu is an Assistant Professor in the Department of Psychology at National University of Singapore. He studies how dysfunction in basic cognitive processes, like attention and executive functioning, contribute to the development and maintenance of depression and related psychopathology (e.g., co-morbid anxiety).
 
 He is also interested in clarifying predictors and mediators of psychotherapeutic response for depression and anxiety in real-world settings, developing and refining scalable interventions (e.g., cognitive training, single-session psychotherapeutic interventions), improving measurement reliability and validity, and increasing awareness of issues surrounding mental health and stigma in typically underserved communities.
